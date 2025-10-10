@@ -1,0 +1,598 @@
+{
+    "resumen_general": {
+        "periodo_analizado": "2025-02 a 2025-09",
+        "total_unidades_vendidas": 78133,
+        "promedio_unidades_por_venta": 9.1,
+        "numero_total_facturas": 992,
+        "numero_total_clientes": 175,
+        "total_productos_unicos": 822,
+        "total_rubros_unicos": 35
+    },
+    "top_10_productos_general": [
+        {
+            "nombre_producto": "Lubricante multiuso HD440 GRANDE",
+            "cantidad": 1411
+        },
+        {
+            "nombre_producto": "aguarras jp",
+            "cantidad": 1223
+        },
+        {
+            "nombre_producto": "resistencia bronce",
+            "cantidad": 1146
+        },
+        {
+            "nombre_producto": "Soda caustica kilo",
+            "cantidad": 1029
+        },
+        {
+            "nombre_producto": "llave tubo 120mm",
+            "cantidad": 908
+        },
+        {
+            "nombre_producto": "Sellarosca hidro 3 Chico",
+            "cantidad": 850
+        },
+        {
+            "nombre_producto": "resistencia aluminio",
+            "cantidad": 844
+        },
+        {
+            "nombre_producto": "Estufa 1200w doble",
+            "cantidad": 829
+        },
+        {
+            "nombre_producto": "electrodo sideral 2,5mm",
+            "cantidad": 808
+        },
+        {
+            "nombre_producto": "Cinta embalaje marron o transparente",
+            "cantidad": 807
+        }
+    ],
+    "top_10_rubros_general": [
+        {
+            "rubro": "Herramientas manuales",
+            "cantidad": 22266
+        },
+        {
+            "rubro": "Electricidad",
+            "cantidad": 12108
+        },
+        {
+            "rubro": "Selladores y adhesivos",
+            "cantidad": 6272
+        },
+        {
+            "rubro": "Iluminaci\u00f3n",
+            "cantidad": 5777
+        },
+        {
+            "rubro": "Fontaner\u00eda",
+            "cantidad": 4901
+        },
+        {
+            "rubro": "Pintura",
+            "cantidad": 4138
+        },
+        {
+            "rubro": "Seguridad y protecci\u00f3n",
+            "cantidad": 2955
+        },
+        {
+            "rubro": "Repuestos y componentes",
+            "cantidad": 2748
+        },
+        {
+            "rubro": "Accesorios para herramientas",
+            "cantidad": 2605
+        },
+        {
+            "rubro": "Fijaciones y sellos",
+            "cantidad": 1966
+        }
+    ],
+    "predicciones_productos_top_50": [
+        {
+            "producto": "llave tubo 950mm",
+            "prediccion": 72411,
+            "tendencia": 20664.933678799294,
+            "datos_historicos": 6,
+            "venta_promedio": 83.33333333333333
+        },
+        {
+            "producto": "llave tubo 980mm",
+            "prediccion": 45581,
+            "tendencia": 15172.000000001304,
+            "datos_historicos": 5,
+            "venta_promedio": 65.4
+        },
+        {
+            "producto": "cinta aisladora tacsa 10mts",
+            "prediccion": 23118,
+            "tendencia": 6583.628637651484,
+            "datos_historicos": 6,
+            "venta_promedio": 75.0
+        },
+        {
+            "producto": "llave tubo 180mm",
+            "prediccion": 23101,
+            "tendencia": 6576.158504293283,
+            "datos_historicos": 6,
+            "venta_promedio": 84.33333333333333
+        },
+        {
+            "producto": "Silicona en pomo acetica transparente SILIMAXX 85G",
+            "prediccion": 22635,
+            "tendencia": 5642.613735576497,
+            "datos_historicos": 7,
+            "venta_promedio": 64.71428571428571
+        },
+        {
+            "producto": "resistencia bronce",
+            "prediccion": 18382,
+            "tendencia": 4053.032468016143,
+            "datos_historicos": 8,
+            "venta_promedio": 143.25
+        },
+        {
+            "producto": "filtro alba\u00f1il 25cm",
+            "prediccion": 17721,
+            "tendencia": 4409.733887486162,
+            "datos_historicos": 7,
+            "venta_promedio": 81.57142857142857
+        },
+        {
+            "producto": "Ficha richi original macho",
+            "prediccion": 16084,
+            "tendencia": 4576.4515195612,
+            "datos_historicos": 6,
+            "venta_promedio": 66.0
+        },
+        {
+            "producto": "Silicona acetica luxom TRANSPARENTE",
+            "prediccion": 15682,
+            "tendencia": 4451.7124394508055,
+            "datos_historicos": 6,
+            "venta_promedio": 100.83333333333333
+        },
+        {
+            "producto": "Soda caustica kilo",
+            "prediccion": 14766,
+            "tendencia": 3252.8200041038413,
+            "datos_historicos": 8,
+            "venta_promedio": 128.625
+        },
+        {
+            "producto": "Teflon 1/2 x 10m LUXOM",
+            "prediccion": 13233,
+            "tendencia": 3759.0286856971384,
+            "datos_historicos": 6,
+            "venta_promedio": 76.33333333333333
+        },
+        {
+            "producto": "Ca\u00f1o corrugado blanco 3/4",
+            "prediccion": 11890,
+            "tendencia": 2961.4579889010733,
+            "datos_historicos": 7,
+            "venta_promedio": 43.714285714285715
+        },
+        {
+            "producto": "Lampara alta potencia 40w Luxom (sin stock)",
+            "prediccion": 11407,
+            "tendencia": 3767.930980145002,
+            "datos_historicos": 5,
+            "venta_promedio": 103.0
+        },
+        {
+            "producto": "llave tubo 1440mm",
+            "prediccion": 10986,
+            "tendencia": 3126.8687297892543,
+            "datos_historicos": 6,
+            "venta_promedio": 42.166666666666664
+        },
+        {
+            "producto": "aguarras jp",
+            "prediccion": 10643,
+            "tendencia": 2616.9783504560164,
+            "datos_historicos": 7,
+            "venta_promedio": 174.71428571428572
+        },
+        {
+            "producto": "llave tubo 510mm",
+            "prediccion": 9922,
+            "tendencia": 2467.6022981122605,
+            "datos_historicos": 7,
+            "venta_promedio": 51.285714285714285
+        },
+        {
+            "producto": "Ca\u00f1o fusion 25 ECOAGUA",
+            "prediccion": 8264,
+            "tendencia": 2346.363542781894,
+            "datos_historicos": 6,
+            "venta_promedio": 51.5
+        },
+        {
+            "producto": "guante de nitrilo",
+            "prediccion": 7544,
+            "tendencia": 1662.941229971603,
+            "datos_historicos": 8,
+            "venta_promedio": 61.25
+        },
+        {
+            "producto": "Teflon 3/4x 10m LUXOM",
+            "prediccion": 7231,
+            "tendencia": 1594.2044604951263,
+            "datos_historicos": 8,
+            "venta_promedio": 57.5
+        },
+        {
+            "producto": "guante de latex",
+            "prediccion": 7179,
+            "tendencia": 1585.6832225444648,
+            "datos_historicos": 8,
+            "venta_promedio": 43.125
+        },
+        {
+            "producto": "Zapatilla JOTAELE 3 mts 6 tomas multinorma",
+            "prediccion": 6776,
+            "tendencia": 1493.062221597042,
+            "datos_historicos": 8,
+            "venta_promedio": 56.875
+        },
+        {
+            "producto": "llave tubo 120mm",
+            "prediccion": 6697,
+            "tendencia": 1641.7818369176384,
+            "datos_historicos": 7,
+            "venta_promedio": 129.71428571428572
+        },
+        {
+            "producto": "guante moteado",
+            "prediccion": 6330,
+            "tendencia": 1785.7540957020285,
+            "datos_historicos": 6,
+            "venta_promedio": 79.83333333333333
+        },
+        {
+            "producto": "cinta aisladora tacsa 20mts",
+            "prediccion": 5582,
+            "tendencia": 1381.308342864184,
+            "datos_historicos": 7,
+            "venta_promedio": 57.142857142857146
+        },
+        {
+            "producto": "Fotocelula luxom",
+            "prediccion": 5582,
+            "tendencia": 1227.9285466779104,
+            "datos_historicos": 8,
+            "venta_promedio": 56.125
+        },
+        {
+            "producto": "Sellarosca hidro 3 Chico",
+            "prediccion": 5281,
+            "tendencia": 1290.013892139908,
+            "datos_historicos": 7,
+            "venta_promedio": 121.42857142857143
+        },
+        {
+            "producto": "Cabeza de regulador gas",
+            "prediccion": 5273,
+            "tendencia": 1308.3213637265467,
+            "datos_historicos": 7,
+            "venta_promedio": 39.57142857142857
+        },
+        {
+            "producto": "Estufa 1200w doble",
+            "prediccion": 5229,
+            "tendencia": 1277.763058743565,
+            "datos_historicos": 7,
+            "venta_promedio": 118.42857142857143
+        },
+        {
+            "producto": "Portalampara 3pz negro",
+            "prediccion": 4971,
+            "tendencia": 1227.5856637050172,
+            "datos_historicos": 7,
+            "venta_promedio": 60.42857142857143
+        },
+        {
+            "producto": "Lampara alta potencia 50w candela",
+            "prediccion": 4880,
+            "tendencia": 1378.380671301157,
+            "datos_historicos": 6,
+            "venta_promedio": 55.666666666666664
+        },
+        {
+            "producto": "Cinta aisladora 10Mts luxom",
+            "prediccion": 4858,
+            "tendencia": 1367.070435238557,
+            "datos_historicos": 6,
+            "venta_promedio": 73.33333333333333
+        },
+        {
+            "producto": "Canilla pvc reforzada 1/2 FAPLAS",
+            "prediccion": 4755,
+            "tendencia": 1172.4766641595136,
+            "datos_historicos": 7,
+            "venta_promedio": 64.71428571428571
+        },
+        {
+            "producto": "llave tubo 26mm",
+            "prediccion": 4657,
+            "tendencia": 1022.8962312735262,
+            "datos_historicos": 8,
+            "venta_promedio": 53.75
+        },
+        {
+            "producto": "Termica sica 25AMP",
+            "prediccion": 4466,
+            "tendencia": 981.4320920929833,
+            "datos_historicos": 8,
+            "venta_promedio": 49.75
+        },
+        {
+            "producto": "cinta doble faz",
+            "prediccion": 4211,
+            "tendencia": 924.9469713622127,
+            "datos_historicos": 8,
+            "venta_promedio": 49.125
+        },
+        {
+            "producto": "Espuma de poliuretano SILIMAXX 500ML",
+            "prediccion": 3865,
+            "tendencia": 840.6380220325317,
+            "datos_historicos": 8,
+            "venta_promedio": 81.875
+        },
+        {
+            "producto": "calefon marsico reforzado",
+            "prediccion": 3823,
+            "tendencia": 837.3766366597574,
+            "datos_historicos": 8,
+            "venta_promedio": 55.25
+        },
+        {
+            "producto": "silicona NEUTRA transparente silimaxx",
+            "prediccion": 3602,
+            "tendencia": 787.8702435870779,
+            "datos_historicos": 8,
+            "venta_promedio": 56.125
+        },
+        {
+            "producto": "Ficha tipo kalop macho negro",
+            "prediccion": 3554,
+            "tendencia": 776.0963511821268,
+            "datos_historicos": 8,
+            "venta_promedio": 62.0
+        },
+        {
+            "producto": "Termica sica 32AMP",
+            "prediccion": 3064,
+            "tendencia": 668.9445190913707,
+            "datos_historicos": 8,
+            "venta_promedio": 54.0
+        },
+        {
+            "producto": "guante de pvc",
+            "prediccion": 2902,
+            "tendencia": 630.1226231539265,
+            "datos_historicos": 8,
+            "venta_promedio": 66.0
+        },
+        {
+            "producto": "Soporte de TV movil doble brazo 14-55",
+            "prediccion": 2767,
+            "tendencia": 602.9924343161549,
+            "datos_historicos": 8,
+            "venta_promedio": 53.375
+        },
+        {
+            "producto": "Precinto 150x3,6",
+            "prediccion": 2684,
+            "tendencia": 585.9767755071717,
+            "datos_historicos": 8,
+            "venta_promedio": 46.625
+        },
+        {
+            "producto": "Soporte de TV fijo 26-63",
+            "prediccion": 2580,
+            "tendencia": 566.0136226947211,
+            "datos_historicos": 8,
+            "venta_promedio": 33.375
+        },
+        {
+            "producto": "Precinto 200x4,6",
+            "prediccion": 2402,
+            "tendencia": 523.388039363251,
+            "datos_historicos": 8,
+            "venta_promedio": 46.75
+        },
+        {
+            "producto": "llave tubo 29mm",
+            "prediccion": 2161,
+            "tendencia": 471.6286507659007,
+            "datos_historicos": 8,
+            "venta_promedio": 38.625
+        },
+        {
+            "producto": "Cinta embalaje marron o transparente",
+            "prediccion": 1861,
+            "tendencia": 436.40114897065297,
+            "datos_historicos": 7,
+            "venta_promedio": 115.28571428571429
+        },
+        {
+            "producto": "Precinto 350x4,6",
+            "prediccion": 1744,
+            "tendencia": 379.5309342238548,
+            "datos_historicos": 8,
+            "venta_promedio": 35.875
+        },
+        {
+            "producto": "Gas butano KOVEA",
+            "prediccion": 1655,
+            "tendencia": 404.76110034092034,
+            "datos_historicos": 7,
+            "venta_promedio": 35.714285714285715
+        },
+        {
+            "producto": "Precinto 250x4,6",
+            "prediccion": 1565,
+            "tendencia": 339.35907696671677,
+            "datos_historicos": 8,
+            "venta_promedio": 38.25
+        }
+    ],
+    "predicciones_rubros_top_20": [
+        {
+            "rubro": "Cerrajer\u00eda y seguridad",
+            "probabilidad_alto_volumen": 0.718,
+            "precision_modelo": 1.0,
+            "datos_historicos": 8,
+            "volumen_promedio": 25.125
+        },
+        {
+            "rubro": "Soldadura",
+            "probabilidad_alto_volumen": 0.661,
+            "precision_modelo": 1.0,
+            "datos_historicos": 8,
+            "volumen_promedio": 211.125
+        },
+        {
+            "rubro": "Herramientas y soldadura",
+            "probabilidad_alto_volumen": 0.654,
+            "precision_modelo": 1.0,
+            "datos_historicos": 7,
+            "volumen_promedio": 102.57142857142857
+        },
+        {
+            "rubro": "Herramientas el\u00e9ctricas",
+            "probabilidad_alto_volumen": 0.616,
+            "precision_modelo": 0.875,
+            "datos_historicos": 8,
+            "volumen_promedio": 23.75
+        },
+        {
+            "rubro": "Lubricantes y mantenimiento",
+            "probabilidad_alto_volumen": 0.602,
+            "precision_modelo": 0.75,
+            "datos_historicos": 8,
+            "volumen_promedio": 186.25
+        },
+        {
+            "rubro": "Herramientas manuales",
+            "probabilidad_alto_volumen": 0.594,
+            "precision_modelo": 0.75,
+            "datos_historicos": 8,
+            "volumen_promedio": 2783.25
+        },
+        {
+            "rubro": "Seguridad y Comercio",
+            "probabilidad_alto_volumen": 0.555,
+            "precision_modelo": 0.875,
+            "datos_historicos": 8,
+            "volumen_promedio": 54.875
+        },
+        {
+            "rubro": "Limpieza",
+            "probabilidad_alto_volumen": 0.537,
+            "precision_modelo": 1.0,
+            "datos_historicos": 6,
+            "volumen_promedio": 43.333333333333336
+        },
+        {
+            "rubro": "Qu\u00edmicos y limpieza",
+            "probabilidad_alto_volumen": 0.513,
+            "precision_modelo": 1.0,
+            "datos_historicos": 8,
+            "volumen_promedio": 131.0
+        },
+        {
+            "rubro": "Control de plagas",
+            "probabilidad_alto_volumen": 0.503,
+            "precision_modelo": 1.0,
+            "datos_historicos": 4,
+            "volumen_promedio": 85.0
+        },
+        {
+            "rubro": "Seguridad y protecci\u00f3n",
+            "probabilidad_alto_volumen": 0.501,
+            "precision_modelo": 0.75,
+            "datos_historicos": 8,
+            "volumen_promedio": 369.375
+        },
+        {
+            "rubro": "Accesorios para herramientas",
+            "probabilidad_alto_volumen": 0.495,
+            "precision_modelo": 0.75,
+            "datos_historicos": 8,
+            "volumen_promedio": 325.625
+        },
+        {
+            "rubro": "Electr\u00f3nica y TV",
+            "probabilidad_alto_volumen": 0.472,
+            "precision_modelo": 0.875,
+            "datos_historicos": 8,
+            "volumen_promedio": 104.5
+        },
+        {
+            "rubro": "Construcci\u00f3n y medici\u00f3n",
+            "probabilidad_alto_volumen": 0.47,
+            "precision_modelo": 0.875,
+            "datos_historicos": 8,
+            "volumen_promedio": 95.5
+        },
+        {
+            "rubro": "Jardiner\u00eda y limpieza",
+            "probabilidad_alto_volumen": 0.42,
+            "precision_modelo": 0.625,
+            "datos_historicos": 8,
+            "volumen_promedio": 27.75
+        },
+        {
+            "rubro": "Climatizaci\u00f3n",
+            "probabilidad_alto_volumen": 0.413,
+            "precision_modelo": 1.0,
+            "datos_historicos": 8,
+            "volumen_promedio": 198.125
+        },
+        {
+            "rubro": "Selladores y adhesivos",
+            "probabilidad_alto_volumen": 0.391,
+            "precision_modelo": 1.0,
+            "datos_historicos": 8,
+            "volumen_promedio": 784.0
+        },
+        {
+            "rubro": "Automotor",
+            "probabilidad_alto_volumen": 0.359,
+            "precision_modelo": 0.875,
+            "datos_historicos": 8,
+            "volumen_promedio": 59.125
+        },
+        {
+            "rubro": "Repuestos y componentes",
+            "probabilidad_alto_volumen": 0.356,
+            "precision_modelo": 1.0,
+            "datos_historicos": 8,
+            "volumen_promedio": 343.5
+        },
+        {
+            "rubro": "Fontaner\u00eda",
+            "probabilidad_alto_volumen": 0.345,
+            "precision_modelo": 1.0,
+            "datos_historicos": 8,
+            "volumen_promedio": 612.625
+        }
+    ],
+    "metricas_evaluacion": {
+        "productos_regresion_lineal": {
+            "promedio_mape": 44.46,
+            "promedio_rmse": 346.97
+        },
+        "rubros_regresion_logistica": {
+            "precision_promedio": 91.5
+        }
+    }
+}

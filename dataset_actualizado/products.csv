@@ -1,0 +1,957 @@
+id_producto,codigo_producto,nombre_producto
+12,Sp5,Cepillo mango rojo
+890,electros12CCC,Contadora de billetes GLOBAL
+10,sp3,Arco sierra junior
+11,sp4,Cepillo tipo dental 3pcs
+8,sp1,Alicate 6
+13,SP6,Chocla con tiza y nivel 15mts
+14,sp7,Corta caño rueda 2
+15,sp8,Corta candados y pernos
+16,sp9,Pincel 1
+17,sp10,"Pincel 1,5"
+18,sp11,Pincel 2
+19,sp12,Pincel 3
+20,sp14,"Pincel 2,5"
+21,sp15,Pincel 4
+22,sp16,Pincel 5
+23,sp17,Pincel 6
+24,sp18,Pinza 6
+25,sp19,Remachadora
+26,CAR1,"Cable taller 2X1,5 100%COBRE"
+27,Sp7,Pincel escolar x12 pcs
+28,SP8,Pinza porta electrodo 300AMP
+29,sp10,Soldador estaño
+30,SP11,Pinza masa 300AMP
+31,SP12,Masa goma 300 gr
+32,SP13,Nivel laser en caja
+33,sp14,Canilla 1/2 metal
+34,sp15,Canilla 3/4 metal
+35,Sp16,Canilla metal lavarropas
+36,SP17,Caño de ducha 30 CM
+37,sp18,Caño de ducha 35CM
+38,sp18,Caño de ducha 35CM
+39,Sp19,Caño de ducha 50CM
+40,sp20,Caño de ducha 35CM NEGRO
+41,sp21,Caño de ducha 50CM NEGRO
+42,sp23,Ducha cuadrada 15CM Cromada
+43,sp24,Ducha cuadrada 20CM Cromada
+44,sp25,Tijera corta caño
+45,SP26,Tijera corta caño Grande
+46,SP27,Set de correcion campana
+47,sp28,Set de orring
+142,sp43,Set pesca completo ideal para chicos
+49,Tri1,Sifon de goma simple
+50,tRI2,Sifon de goma doble
+51,FRAN1,Sopapa 40
+52,fran2,Sopapa 50
+53,sP29,Sopapa desague oculto touch
+54,sp30,Llave paso 1/2 metal
+55,SP31,Llave paso 3/4 metal
+56,SP32,Fijacion universal c/tornillo
+57,sp33,Fijacion universal c/rosca
+61,sp35,Rejilla click clack 12CM
+60,sp34,Rejilla click clack 10CM
+62,sp34,Rejilla click clack 15CM
+63,sp35,Rejilla click clack 20CM
+64,sp36,Roseta metalica para caño ducha
+65,SP37,Acople rapido compresor x5
+66,sp38,Ajusta carga x4 unidades reforzada
+67,sP39,Ajusta carga simple
+68,Sp40,Chaleco reflectivo (amarillo o verde)
+69,sp41,Cinta remolque auto
+1090,assaas,Soga esperanza 6x100 mts
+71,sp43,Llave cruz auto
+72,SP44,Manometro con manguera
+73,sp45,Guante microfibra
+74,sp46,Soga pulpo sujeta cargas
+75,sp47,Saca bujia
+76,car2,Luminaria publica E27 con brazo metalico iluminacion cod 268
+77,car3,Anafe para gas envasado DOBLE
+78,car4,Anafe para gas envasado SIMPLE
+79,car5,Banqueta pvc reforzada Zatecno
+80,CAR6,"Cable unipolar 1,5 mm eco"
+81,car7,"Cable unipolar 1,5 mm 100%COBRE"
+82,car8,"Cable unipolar 2,5 mm eco"
+83,CAR9,Cable unipolar 4 mm eco
+84,CAR10,"Cable unipolar 2,5 mm 100%COBRE"
+85,CAR11,Cable unipolar 4mm 100%COBRE
+86,CAR12,"Cable taller 2X2,5 100%COBRE"
+87,CAR13,Cable taller 2X4 100%COBRE
+88,car14,"Cable taller 2x1,5 ECO"
+89,car15,"Cable taller 2x2,5 ECO"
+90,car21,Cable taller 2x4 ECO
+91,CAR42,Gas butano KOVEA
+92,Car43,Lampara vintage 15w luxom
+201,Luxo14,Lampara alta potencia 20W LUXOM (sin stock))
+94,CAR45,Caja para termica 1-2
+95,car46,Caja para termica 2-4
+96,car47,Caja para termica 4-8
+97,car48,Caja para termica 8-12
+98,car50,Termica sica 10AMP
+99,CAR51,Termica sica 15AMP
+100,CAR52,Termica sica 20AMP
+101,CAR53,Termica sica 25AMP
+102,car54,Termica sica 32AMP
+103,car55,Termica sica 40AMP
+104,CAR56,Termica sica  63AMP
+958,sili1,Silicona para Zingueria Silimaxx
+1124,FERRE312,"Tanza grilon de albañil 0,80"
+107,car59,"Zapatilla Trefilcon NORMALIZADA 2,5MTS 4T"
+108,CAR60,"Cable bipolar 2x1,5 ECO"
+109,car61,"Cable bipolar 2x2,5 ECO"
+110,car62,"Cable bipolar 2x1,5 100%COBRE"
+111,car63,"Cable bipolar 2x2,5 100%COBRE"
+112,car64,Caja herramientas LUSQTOFF Racing 150 pcs
+113,car65,Caja de herramientas LUSQTOFF con cajones GRANDE 84PZS
+114,CAR66,Caja de herramientas LUSQTOFF Plegable 64PCS
+115,car67,Set LUSQTOFF RALLY 129PCS
+116,mar1,Bomba 1/2 Lusqtoff
+117,mar2,Bomba 3/4 centrifuga LUSQTOFF
+118,mar3,Bomba 1 HP centrifuga LUSQTOFF
+119,mar4,Bomba presurizadora LUSQTOFF 2 BAÑOS
+120,mar5,Bomba presurizadora LUSQTOFF 4 BAÑOS
+121,MAR6,Desmalezadora LUSQTOFF 52cc Semiprofesional
+122,MAR7,Compresor LUSQTOFF Auto 12V doble piston
+123,mar8,Tapa inodoro madera laqueada
+124,MAR9,Cinta pasacable LUSQTOFF 10M plastica
+125,MAR10,Cinta pasacable LUSQTOFF 7M plastica
+126,mar11,Cinta pasacable LUSQTOFF 15M plastica
+127,MAR12,Cinta pasacable LUSQTOFF 7M Acero
+128,MAR13,Cinta pasacable LUSQTOFF 10M Acero
+129,MAR14,Cinta pasacable LUSQTOFF 15M Acero
+130,MAR15,Ventilador de  techo indeplas blanco con luz LED
+131,mar16,Automatico hermetico tanque LUSQTOFF
+132,mar17,Pistola de calor LUSQTOFF 1600w
+133,mar18,Rotomartillo lusqtoff 850W Percutor sin stock
+134,MAR19,Taladro atornillador percutor inalambrico 2 baterias
+135,mar20,Termofusora LUSQTOFF 800W
+136,Maria1,Espuma de poliuretano 500ML Silimaxx
+137,Maria2,Silicona en pomo acetica transparente SILIMAXX 85G
+138,Maria2,Silicona en pomo acetica Blanca SILIMAXX 85G
+139,Maria3,Silicona Alta temperatura (tipo fastix) SILIMAXX 85G
+140,jota1,"Zapatilla 1,5mts JOTAELE"
+141,Jota2,Zapatilla 3mts JOTAELE
+143,sp45,"Caña doble tramo 2,1mts"
+144,sp46,"Caña doble tramo 3,1mts"
+145,sp47,Reel Cromado sg500 sin stock
+146,sp48,Reel pesca sl200
+147,sp49,Set jardin x4 piezas
+148,sp50,Regador de golpe automatico
+149,lux1,Reflector o estaca solar 5w LUXOM
+151,LUX2,Disco de corte 115x1.6  Ackerman metal
+152,lux3,Fotocelula luxom
+154,LUX5,Maquina pastas luxom
+155,lux6,Cinta aisladora 10Mts luxom
+206,luxo18,Reflector led 10w LUXOM
+157,lux8,Buscapolo inductivo luxom
+158,lux8,Pegamento instantaneo LUXOM
+159,LUX9,Pegamento instantaneo LUXOM GEL
+960,sp73,Manguera de hidro 6mts reforzada
+826,adap,adaptador para rotopercutor
+163,sp51, Manguera de hidro 6mts economica
+164,sp52,Machete importado
+165,sp53,Pistola de hidro corta
+166,sp54,Carretel naranja
+167,sp55,Carretel negro con tuerca
+168,sp55,Acople p/manguera 1/2
+169,sp56,Acople p/manguera  1
+170,Car1,Tornillo de inodoro x100 unidades 80 NACIONAL
+171,sp56,Flexible metal 1/2x30cm XPAR
+172,SP57,Flexible metal 1/2x40cm XPAR
+173,SP57,Flexible metal 1/2x50cm XPAR
+174,SP58,Pico repuesto de griferia
+175,sp59,Columna ducha exterior black
+176,sp60,Monocomando cisne
+177,car2,Picaporte pvc blanco
+178,car3,Picaporte pvc negro
+179,car4,Rejilla pvc reforzada
+180,car10,Ficha richi original macho
+181,car11,Ficha richi original hembra
+182,car12,Ficha simil richi hembra
+183,car12,Ficha simil richi macho
+184,car12,Ficha tipo kalop hembra
+185,car13,Ficha tipo kalop macho negro
+186,jota3,Zapatilla 5mts JOTAELE
+187,jota5,Zapatilla 10mts JOTAELE
+188,JOTA6,Zapatilla sin cable con tecla JOTAELE
+189,Jota7,"Zapatilla JOTAELE 1,5 mts 6 tomas multinorma"
+190,jota8,Zapatilla JOTAELE 3 mts 6 tomas multinorma
+191,jota9,Zapatilla JOTAELE 5 mts 6 tomas multinorma
+192,jota10,"Alargue prolongador Jotaele 1,5mts tripolar"
+193,JOTA11,Alargue prolongador Jotaele 3mts tripolar
+194,JOTA11,Alargue prolongador Jotaele 5mts tripolar
+195,JOTA12,Alargue prolongador Jotaele 10mts tripolar
+196,JOTA13,Portatil metalica 3mts C/Tecla Jotaele
+197,jota14,Portatil metalica 5mts Con/Tecla Jotaele
+198,jota15,Portatil metalica 10mts Con/Teclaa Jotaele
+199,Dani1,Sellarosca hidro 3 Chico
+989,RODR121,Sellarosca cointube
+202,lux15,Lampara alta potencia 30W LUXOM (sin stock))
+203,luxo15,Lampara alta potencia 40w Luxom (sin stock)
+204,luxo16,Lampara alta potencia 70w Luxom (sin stock))
+205,luxo17,Lampara alta potencia 80w Luxom
+207,luxo19,Reflector led 20w LUXOM
+208,luxo20,Reflector led 30w LUXOM
+209,luxo21,Reflector led 50w LUXOM
+210,luxo22,Reflector led 100w LUXOM
+211,lusqto10,Termo litro LUSQTOFF
+212,lusqto11,Termo 750ml LUSQTOFF
+213,lusqto11,Vaso termico acero 430ml LUSQTOFF
+214,luxo23,Termo mate 1 Litros LUXOM
+215,LUXO24,"Termo mate 1,3 Litros LUXOM"
+216,LUXO25,Mate 300ml luxom
+217,luxo26,Maquina de afeitar stark (simil gillette) LUXOM
+218,LUXO27,Silicona pintable Luxom blanco para pegar molduras (sin stock))
+219,electri1,Guirnalda decorativa 10 MTS
+220,LUXO26,Tubo led 9W Fria SICA
+221,luxo27,Tubo led 18W Fria LUXOM
+222,jota16,Tortuga pvc
+223,FUSION1,Caño fusion 20 ECOAGUA
+224,FUSION2,Caño fusion 25 ECOAGUA
+225,FUSION3,Caño fusion 32 ECOAGUA
+226,fusion 4,Codo fusion 20
+227,fusion 5,Codo fusion 25
+228,Fusion 6,Codo fusion 32
+229,Fusion 7,Codo fusion reduccion 25x20
+230,Fusion 8,Codo fusion reduccion 32x20
+231,Fusion 9,Codo fusion reduccion 32x25
+232,Fusion 10,Cupla fusion reducion 25x20
+233,Fusion 11,Cupla fusion reduccion 32x20
+234,Fusion 13,Cupla fusion reduccion 32x25
+235,Fusion 14,Teee fusion 20
+236,Fusion 15,Teee fusion 25
+237,Fusion 16,Teee fusion 32
+238,Fusion 17,Tee fusion reduccion 25x20
+239,Fusion 18,Tee fusion reduccion 32x20
+240,Fusion 18,Tee fusion reduccion 32x25
+241,Fusion 19,Tapa fusion 20
+242,Fusion 19,Tapa fusion 25
+243,Fusion 20,Tapa fusion 32
+244,Fusion 20,sobrepaso fusion 20
+245,Fusion 21,sobrepaso fusion 25
+246,Fusion 22,sobrepaso fusion 32
+247,Fusion 23,union doble 20 fusion
+248,Fusion 24,union doble 25 fusion
+249,Fusion 25,union doble 32 fusion
+250,Fusion 26,llave campana 1/2 fusion
+251,Fusion 27,llave campana 3/4 fusion
+252,fusion 28,codo macho 20x1/2 fusion
+253,Fusion 29,codo macho 25 x1/2 fusion
+254,fusion 30,codo macho 20x 3/4 fusion
+255,Fusion 31,codo macho 32 x 1 fusion
+256,Fusion 52,cupla 20 x 1/2 macho
+257,Fusion 33,cupla 25 x 3/4 macho
+258,Fusion 34,cupla 32 x 1 macho
+259,Fusion 35,cupla 25 x 1/2 macho
+260,Fusion 36,cupla 20 x 3/4 macho
+261,Fusion 37,tee 20 x 1/2 macho
+262,Fusion 36,tee 25 x 1/2 macho fusion
+263,Fusion 37,tee 25 x 3/4 macho fusion
+264,Fusion 38,tee 32 x 1 macho fusion
+265,Fusion 38,llave esferica 20mm fusion
+266,Fusion 39,llave esferica 25mm fusion
+267,Fusion 39,llave esferica 32mm fusion
+268,fusion 33,codo hembra 20 x 1/2 fusion
+269,fusion 34,codo hembra 25 x 1/2 fusion
+270,fusion 35,codo hembra 25 x 3/4 fusion
+271,fusion 36,codo hembra 32 x 1/2 fusion
+272,fusion 37,codo hembra 32 x 1 fusion
+273,fusion 38,codo hembra 32 x 3/4 fusion
+274,fusion 39,cupla hembra 20x3/8
+275,fusion 39,cupla hembra 20x1/2
+276,fusion 40,cupla hembra 20x3/4 fusion
+277,fusion 41,cupla hembra 25 x3/4 fusion
+278,fusion 42,cupla hembra 32x3/4 fusion
+279,fusion 43,cupla hembra 32x1 fabio
+280,fusion 44,tee hembra 20x1/2 fusion
+281,fusion 45,tee hembra 25x3/4 fusion
+282,fusion 45,tee hembra 25x1/2 fusion
+283,fusion 46,tee hembra 32x1/2 fusion
+284,fusion 46,tee hembra 32x3/4 fusion
+285,fusion 47,tee hembra 32x1 fusion
+286,tf31,grasa de litio 100g
+287,tf32,grasa de litio 250g
+288,tf33,grasa de rodamiento 100g
+289,tf35,grasa grafitada 100g
+1122,ilumina12312,iluminacion tulipa doble chapa 2076
+291,tf37,deslizante para caños 440ml
+292,tf38,Teflon 1/2 x 10m LUXOM
+293,tf38,Teflon 3/4x 10m LUXOM
+1123,FERRE322,Membrana en aerosol Brixter
+1070,ingletadora  luqstof,ingletadora 1650w
+296,tf311,crema adhesiva epoxi blanca 150g
+297,portalampara,Portalampara 3pz negro
+298,portalampara1,Portalampara 3pz blanco
+299,portalampara2,Portalampara  blanco recto
+300,resis1,resistencia bronce
+301,resis2,Resistencia bronce riñon
+302,resis3,resistencia aluminio
+303,disyu1,disyuntor 25amp
+304,disyu2,disyuntor 40amp
+305,disyu3,sin stock disyuntor 63amp
+306,sili1,Silicona acetica luxom TRANSPARENTE
+1011,marian1232132,Silicona acetica negra silimaxx
+1009,Silicona123123,Silicona acetica transparente silimaxx
+309,sili4,silicona NEUTRA transparente silimaxx
+1097,123123122,Silicona NEUTRA blanca silimaxx
+312,acido2,acido muriatico 5lt
+313,soda,Soda caustica kilo
+853,SP123123,Mezcladora mesada Nacional
+315,filtro2,filtro albañil 25cm
+316,estuf,Estufa 1200w doble
+545,ferre11,Criquet carrito GAMMA 2T
+546,Rober16,Llave mandril 13mm blister
+319,electrod,electrodo sideral 2mm
+320,electrod1,"electrodo sideral 2,5mm"
+321,electrod22,"electrodo sinderal 3,25mm"
+322,cinta1,Cinta de embalaje marron o transparente
+741,sP123213,Llave alem
+325,tender1,tender con alas 7 varillas
+326,tender2,tender con alas reforzado 10 varillas
+327,secaplatos,secaplatos
+328,verdu,verdulero
+458,ROBER4,Pelota de futbol
+330,brian,"cable trefilcon normalizado 1,5mm UNIPOLAR"
+331,brian,"cable trefilcon normalizado 2,5mm UNIPOLAR"
+332,brian,cable trefilcon normalizado 4mm UNIPOLAR
+333,brian,cable trefilcon normalizado 6mm UNIPOLAR
+334,chap1,Caja de chapa rectangular
+335,marsi1,calefon marsico reforzado
+336,marsi2,calefon marsico economico
+337,corrugado,Caño corrugado naranja 3/4
+338,corrugado1,Caño corrugado naranja 7/8
+339,corrugado2,Caño corrugado naranja 1
+340,corrugado3,Caño corrugado blanco 3/4
+341,corrugado4,Caño corrugado blanco 7/8
+342,corrugado5,Caño corrugado blanco 1
+343,luzem,luz de emergencia candela
+344,Rober1,Soporte de TV fijo 26-63
+864,inodoro,Tapa de inodoro reforzada
+346,CANDE1,Lampara candela 9 W
+347,CANDE2,Lampara candela 12 W
+348,cand3,Lampara candela 15 W
+349,cande4,Lampara alta potencia 20W candela
+350,cande5,Lampara alta potencia 30W candela
+351,cande6,Lampara alta potencia 40w candela
+352,cande7,Lampara alta potencia 50w candela
+353,cande8,sin stock Reflector led 10w candela
+354,cande7,sin stock Reflector led 20w candela
+355,cande8,sin stock Reflector led 30w candela
+356,cande9,sin stock Reflector led 50w candela
+357,cande9,sin stockReflector led 100w candela
+358,cande10,timbre inalambrico candela
+359,cande12,encendedor candela
+360,cande13,encendedor chispero candela
+362,tacsa,cinta aisladora tacsa 10mts
+363,tacsa1,cinta aisladora tacsa 20mts
+364,kiar,reflector kiar 10w
+365,kiar1,reflector kiar 20w
+366,kiar2,reflector kiar 30w
+367,kiar3,reflector kiar 50w
+368,kiar4,reflector kiar 100w
+369,kiar5,reflector kiar 200w
+370,interlec,Plafon 24W Embutir redondo/cuadrado Interelec
+371,resilen,Plafon 12W exterior redondo Resilente
+372,resilen1,Plafon 18W exterior redondo  Resilente
+373,resilen2,Plafon 24W exterior redondo Resilente
+374,resilen3,Plafon 36W exterior redondo Resilente
+544,FACU1,Lubricante multiuso HD440 GRANDE
+543,rober15,"Juego de 5 mechas widia para pared (4,5,6,8,10)"
+377,candep,pistola silicona electrica 10w candela
+378,candeb,barra de silicona candela 11mm x 30cm
+379,candebr,barra de silicona candela 7mm x 30cm
+380,loren,Resistencia peine lorenzetti
+428,rejillm,rejilla metal 10x10
+383,lux1,Bastidor doble toma luxom
+384,silim,sellador poliuretanico silimax
+872,cRIS12312331,Picoloro Importada
+386,luxomm,lampara anti insectos luxom
+387,bot,bota de trabajo pro force
+388,luxommm,cortadora de cesped 1700w luxom
+389,mecha,mecha acero rapido metal 6mm xblister(cada blister trae 10)
+390,mecha1,mecha acero rapido metal 8mmx blister (cada blister trae 5)
+391,mecha2,mecha acero rapido metal 10mm x blister (cada blister trae 5)
+828,Lux25,Cinta doble faz 24mm luxom
+1091,SADASD12,Soga esperanza 8x100mts
+394,pvc1,Canilla pvc reforzada 1/2 FAPLAS
+395,pvc2,Canilla pvc reforzada 3/4 FAPLAS
+396,buscapo,buscapolo  145mm
+397,buscapol,buscapolo  210mm
+398,caña1,Set de pesca
+399,manger,mangera negra k4 dosos 1/2
+400,manger1,mangera negra k4 dosos 3/4
+401,manger2,mangera negra k4 dosos 1
+402,bolsa,bolsa de escombro
+403,diluy,Aguarras jp
+404,diluy1,Thinner jp
+405,dilu,kerosene jp
+406,flapp,disco flap 40-60-120
+407,patroll,"disco diamantado continuos 4,5"
+408,patroll1,disco diamantado continuos 7
+409,patroll2,"disco diamantado segmentado 4,5"
+410,patroll3,disco diamantado segmentado 7
+411,patroll4,disco diamantado segmentado 9
+412,patroll4,"disco diamantado turbo 4,5"
+413,patroll5,disco diamantado turbo 7
+414,patroll5,disco diamantado turbo 9
+415,trf,"Disco TRF ALIAFOR 4,5mm"
+416,term,Termostato set completo
+417,tyrolit,Disco tyrolit Secur 115x1.0
+418,tyrolit1,Disco tyrolit Secur 115x1.6
+419,tyril,"Disco Tyrolit Secur debaste 115x4,5"
+420,tyrolit3,Disco tyrolit Secur 7 pulgadas
+421,tyril4,Disco Tyrolit Secur 9 pulgadas
+422,BRIAN1,"Cable taller 2X1,5MM normalizado TREFILCON"
+423,BRIAN2,"Cable taller 2X2,5MM normalizado TREFILCON"
+424,BRIAN3,Guirnalda Normalizada TREFILCON 10mts con 15 portalamparas IP65
+425,Brian4, Disco bosch 115x1.2 metal ORIGINAL
+426,BRIAN5,Camara de de inspección waterplast kit
+427,BRIAN6,Camara desengrasadora waterplast kit
+429,sinpar,Disco sin par
+430,disco1,Discos turbo diamantados 115mm
+431,disco2,Disco segmentado diamantado 115mm
+432,disco3,Disco continuo diamantado 115mm
+433,diaman7,disco turbo y liso diamantado 7 180mm
+434,disco4,discos para madera 115mm
+435,disco5,disco para madera 180mm
+436,faz,Cinta doble faz
+886,Cris123123,Aplicadora silicona esqueleto
+577,rober1112,Linga de moto cadena con candado perno
+439,mecha3,Mecha pala para madera
+440,rata,Pega rata (sin stock)
+441,tapon,tapon de termo 750ml
+442,lux10,"Precinto 100x2,5"
+443,tapon1,tapon de termo 1l
+444,lux11,"Precinto 150x3,6"
+445,term,tapon termo tipo stanley
+446,balanz,Balanza cocina
+447,busc,Buscapolo
+448,lapiz,lapiz soldador
+449,infl,inflador nacional de mano simple
+450,inflad,inflador nacional de pie
+451,LUX12,"Precinto 200x4,6"
+452,LUX13,"Precinto 250x4,6"
+453,lux14,"Precinto 350x4,6"
+454,LUX15,"Precinto 400x4,6"
+455,rober1,Agrimensor 30mts
+456,rober2,"Linga para moto 1,20mts"
+457,ROBER3,Portalampara e27 con ficha y tecla
+459,Lux16,Calculadora 12 digitos grande
+912,bRI1231,Disco bosch 115x1.6
+620,luxommm21,Lampara alta potencia 100w Luxom
+463,luxommm2,Lampara luxom 9w
+464,luxom3,Lampara luxom 7w
+465,luxommm4,Lampara luxom 13w
+466,luxom4,Lampara luxom 15w
+467,Rober12,Cabeza de regulador gas
+469,fibra,kit partche fibra 250
+470,fibra2,kit partche fibra 500
+471,calef,Alargue para calefon 2m JOTAELE
+472,calef1,Alargue para calefon 3m JOTAELE
+473,calef2,ficha para calefon
+474,jeluz,jeluz verona punto
+959,sp72,Manguera de hidro 3mts reforzada
+476,jeluz2,jeluz verona tapa
+885,cRis123123,Broca conica diamantada 9-38mm
+884,Cris123123,Mini disco diamantado para taladro
+480,jeluz6,jeluz verona modulo bastidor
+481,tramada,cinta tramada durlok 50mmx20ms
+482,tramada1,cinta tramada durlok 50mmx45ms
+483,soporte1,soporte de tv fijo 14-42
+484,soporte,Soporte de TV movil doble brazo 14-55
+485,estaño,Blister estaño 50 Nacional
+825,orix,hidrolavadora  inalambrica
+487,guant,Guante moteado
+488,pala,pala forjada gherardi
+1089,sp123123112,Candado perno lateral 90mm
+490,calorit,calentador de agua calorito
+491,anteoj,anteojos de seguridad filtro uv
+492,faja,faja lumbar pampero
+493,piccolo,cerradura piccolo 208
+494,candado,candado 32mm
+495,candado1,candado 38mm
+496,candado2,candado 50mm
+497,candado4,candado 63mm
+498,candado5,candado 75mm
+499,arolarg,candado aro largo 38
+500,arolargo,candado aro largo 50
+501,arolargo1,candado aro largo 63
+502,cepillot,Cepillo para taladro 3pzs
+503,cepillot1,Cepillo para taladro 5pzs
+504,soplete,soplete membranero tachista
+505,martillol,martillo loro corto
+506,loro1,martillo loro largo
+914,pelacab,pelacable automatica
+913,CRIS25,Marcador fibra especial
+509,metric,cinta metrica 3mts GIANTOP
+510,metric1,cinta metrica 5mts GIANTOP
+511,evel,cinta metrica evel 3mts
+512,evel1,cinta metrica evel 5mts
+513,evel2,cinta metrica evel 6mts
+514,evel3,cinta metrica evel 8mts
+515,evel4,cinta metrica evel 10mts
+516,cadena,cadena con tuerca
+517,flor,Flor ducha cuadrada 15cm
+518,flor2,caño ducha 35cm
+519,flor4,caño de ducha 50cm
+520,cisne,monocamando cisne
+521,lavatorio,lavatorio monocomando 17cm
+522,lavatorio1,lavatorio monocomando 24cm
+523,lavatorio2,lavatorio monocomando 31cm
+524,griferia,Griferia cascada chica
+525,griferia1,griferia cascada grande
+526,flexibl,flexible metal1/2 60cm
+527,flexibl3,flexible metal 3/4 30cm
+528,flexibl4,flexible metal 3/4 40cm
+529,flexibl5,flexible metal 3/4 50cm
+530,flex6,flexible monocomando 45cm
+531,trapeador,Mopa lampazo trapeador luxom
+532,prive,prive 200
+533,priv,prive 201
+534,prive1,prive 101
+535,prive2,prive 102
+536,prive3,prive 205
+537,prive4,prive 204
+538,prive6,prive 206
+539,prive7,prive 207
+540,prive8,prive 208
+541,prive10,prive210
+542,prive12,prive212
+547,rober17,Set mecha para madera blister 8 pcs (3 a 10 mm))
+548,boya,boya pileta
+549,fumigador,fumigador
+550,pelo1,secapor de pelo winco
+551,pelo1,cortadora de pelo winco
+552,gavetero,gavetero
+553,omaha,tijera corta caño omaha
+554,termofusora,termofusora gassaman
+557,omaha1,presurizadora pluvius
+558,pluvius,bomba pluvius
+559,omaha2,amoladora omaha 900w
+560,ollas,ollas oryx
+562,desmalezadora,Desmalezadora clorjax 52cc
+563,ginyplas,Griferia lavatorio ginyplast
+1063,ferre32,Reflector con sensor 10w lusqtoff
+565,ginyplas2,Valvula  de retencion ginyplast
+566,ginyplas3,Mezcladora de pared ginyplast
+567,STELAR,Bastidor punto y toma luxom
+568,stellar,Bastidor doble punto luxom
+569,stellar1,Bastidor doble toma luxom
+570,stellar2,Bastidor toma simple luxom
+571,stellar3,Bastidor toma 20amp luxom
+572,exterior,Punto y toma exterior luxom
+573,exterior1,Toma doble exterior ciocca
+574,exterior2,Toma exterior simple luxom
+575,exterior4,toma 20amp exterior extellar
+576,Total21,Cargador de bateria auto TOTAL 12/34 V
+578,rober122,Cutter navaja con repuesto incluido
+579,1231231,Set alambre galvanizado artesanías
+580,luxo29,Ionizador solar para piscinas LUXOM
+581,rober130,Mezclador helicoidal 800x400x8MM
+582,Rober131,Pulidora lana 115mm
+583,rober132,Pulidora lana 180mm
+584,luxo30,Cable taller 2x6 ECO
+585,luxo28,"Cable taller 3x1,5MM ECO"
+628,lamparalux,lampara alta potencia 50w luxom
+587,LUXO32,Baliza triangulo en caja
+588,sp1111,Mochila fumigadora
+589,sp11,Pesca tuerca mecanico
+590,rober135,Cables para bateria 800amp
+591,roble,cuchara de albañil roble n 8
+592,TRi1,Disco Aliafor FLAPP (40-80-120)
+593,CAR14,Disco flapp Energy  (40-60-80-120)
+594,anteoj,anteojos de seguridad transparente
+827,LUX24,Cinta doble faz 18mm luxom
+596,cris1,Punta PH2 alto impacto 50mm x 15 pcs
+597,parche,parche bicicleta
+598,tfr,disco tfr aliafor
+623,termostat,Termostato repuesto interno
+600,tubo,llave tubos 40pzs
+601,luqstoff,sierra circular luqstoff
+602,mandril,Set mandril con adaptaodor sds  3pzs
+603,lamp,lampara espiral 11w
+604,Deuda,DEUDA PREVIA
+605,DAS1,Cortina de baño Antihongos
+606,lusqtoff,Soldadora iron 100
+607,ROBER136,Juego sierra copa en blister 6 piezas
+609,bra2,Taladro percutor 650w Orebro
+1064,ferre23,Timmer digital 8 funciones lusqtoff
+611,sp111111,Reel pesca frontal a16000 con rulemanes
+612,Cris1,"Disco ultra fino 4,5MM (Para porcellanatos) simil TRF"
+613,Disco de sierra carb,"Disco de sierra carburo de tungsteno 4,5 (Tipo woody aliafor))"
+742,SP1231,Llave alem grande
+738,Sp1231,Prensa G x3 pcs
+721,cris11231,Disco carburo de tungsteno 180mm (Tipo woody aliafor))
+739,sP123122,Mini compresor 12V PARA AUTO
+618,timbre luxom,timbre inalambrico luxom premium
+619,lorenzetti,Ducha lorenzetti electrica
+621,veneno,veneno ultraplus
+622,veneno2,Veneno cucaracha
+887,Electrosr1,Maquina algodon de azucar
+625,regulador,"Regulador gas 1,4 mts"
+626,bici,"Linga bicicleta Acero 1,2"
+627,CAJAA2,Caja de chapa octogonal
+629,flor7,flor ducha 20x20 sin stock
+630,Brian9,Canilla para lavarropas Ginyplast
+1087,sp22313,Candado perno lateral 70mm
+631,BRIAN22,Mezcladora de mesada Ginyplast
+632,lUX21,Cinta aisladora 20Mts luxom
+633,pinza,pinza porta electrodo 500amp
+634,estañ,Blister estaño 40 Nacional
+635,estaño1,Blister estaño 60 Nacional
+636,Cristian,Adaptador Ficha viajero
+637,cris2,Guante engomado Rojo
+638,Cristian2,Puntera para regulador
+639,sp111111,Cutter 18mm (blister 12 unidades)
+640,clavo,clavo cabeza de plomo
+641,CRIS11,Set termostato x2 RECO ITALY
+643,aplicador,Aplicadora de silicona aluminio REFORZADA
+644,monoco,ducha monocomando
+645,Lux11,Cinnta de papel 12mm
+646,lux12,Cinta de papel 18mm
+647,lux13,Cinta papel 24mm
+648,lux14,Cinta de papel 36mm
+649,lux15,Cinta de papel 48mm
+651,canilla,monocomando pico flexible
+652,liston,liston 18w
+653,list,liston 9w
+654,calefonnn,equipo calefon
+655,dicroica,Lampara dicroica 7w fria o calida
+656,luxxom,Luminaria publica luxom 150w iluminacion
+657,perfume,lampara incandecente perfume 15w
+795,Marian124,Kilo de plomada surtido
+659,KLEE,Disco kevler 115x1.6 carburo tusgteno para madera
+660,Dani12,"Disco sierra 4,5 rotweiller"
+661,Dani123,DISCO SIERRA 7 ROTWEILLER
+662,LUSQT,Pistola de pintar electrica lusqtoff
+745,Sp123123,Mecha escalonada 4a12
+664,anodo imp,anodo 16mm a 210mm
+665,llave amoladora imp,llave para amoladorra
+666,pistola hidro,pistola para hidrolavadora larga
+667,llave hidraulica imp,llave hidraulica multiuso plomero
+669,Sp1231,Martillo goma
+1072,cris12,Cinta mosquitero
+671,lusqtoff123,Hidrolavadora lusqtoff
+672,Cris11,Disco de corte multiuso GOLD VIRAL
+673,DANI1,Cuchara de albañil gherardi N7
+744,sP1212,llave torque grande
+743,Sp123123,LLave torque
+720,lux151,Disco desbaste 180mm Luxom
+677,Cris1111,Tornillo para inodoro x100 70mm
+746,Sp123123,Mecha escalonada 4a20
+747,Sp123145,Mecha escalonada 4a32
+733,FERR1,Motosierra Garden plus lusqtoff 2T
+737,Sp1231,Engrampadora powerfull
+718,SP1234,	Conversion de grupo electrogeno nafta a garrafa (GRUPO GRANDE)
+717,SP1234,Conversion de grupo electrogeno nafta a garrafa (GRUPO CHICO
+716,crud1123,Disco para cortar vidrio
+963,123123,Nivel de mano SOLA 60cm
+748,Crusq12,Bidematic
+690,sp59,Tenaza
+692,sP99,Piedra montada x5
+693,sp991,Piedra montada x5 GRANDE
+694,tapon6,tapon cebador
+851,Sp123132,Ducha monocomando negra
+846,total123123,Ljadora orbital Total
+847,tOTAL123123,Sierra circular total
+849,Me123123,Pistola de calor barovo
+850,ml123123,Sierra caladora barovo
+701,danfer1,calentador viajero
+703,Robe1,Gas pimienta
+704,rober1334,Borne para bateria
+871,sp65,Monocomando lavatorio corta
+706,joyero,balanza joyero
+736,Sp1212,Antiparra moto cross negro
+708,bater,cable puente bateria 500amp
+722,SP61,Tijera de sastre
+711,Luxom1231,"Precinto 350x7,6 luxom"
+712,Luxom1232,"Precinto 400X7,6 luxom"
+713,LUXOM1233,"Precinto 450x4,6"
+714,luxom1234,"Precinto 550x4,6"
+719,lux124,"Disco desbaste 4,5mm Luxom"
+1086,sp1123123,Candado perno lateral 60mm
+734,ferre11224,Generador Naftero 2500w Garden plus Lusqtoff
+724,Ferrem1,Compresor lusqtoff 50lts
+725,Lux111,Cinta de refrigeracion blanca luxom
+726,lUSQT1111,Mascara fotosensible omaha
+728,Sp12321,Aplicadora silicona Eisenpro excelente calidad
+729,Sp1231,Soporte tv movil doble 32' a 70'
+730,Sp1111113,Capa para lluvia
+731,Dania1,Nivel de mano SOLA 50cm
+732,LUX23,"Precinto 300x4,6 luxom"
+859,cambiador,cambiador o adaptador de mechas
+858,fresa,juego de fresas para taladro
+991,termot,termotanque uniiversal 90l
+752,rober17,Destornillador stubby 2 en 1
+753,rober18,Set destornillador x5pzs reforzado
+754,rober18,Camara ip wifi full hd con audio
+755,rober19,Nivel torpedo eco 9
+756,SP12312,Accesorio para minitorno x105 pcs
+757,tRIU123,Alambre de fardo KILO
+844,ml12312,Llave ajustable 12 rottweiler
+845,marc1231212,Arenadora neumatica lusqtoff
+761,fusion 47,Cupla 20 fusion
+762,fusion 48,Cupla 25 fusion
+763,lusqt12,Taladro percutor 13mm lusqtoff
+764,lusqt14,Bomba 1/2 garden plus lusqtoff
+915,set p,set pinceles x 5
+766,dani124,Clavo punta paris 2 1/2
+767,sp62,Cepillo copa n4
+768,CRI1231,Balanza redonda 100k verduleria
+769,Sp1212,Candado combinacion 30mm
+770,sp12312,Candado combinacion 40mm
+771,sp123213,Extractor de tornillo eisenpro
+772,ferrem1,Hidrolavadora Omaha
+773,SP122,Antena TV TDA Parrilla
+774,cristian1231,Juego sierra copa 11 pzs
+775,sP1231231,Juego sierra copa 16 pzs
+776,Sp123121,Punta ph blister
+777,Rodri12,Cinta destapa cañeria 5MTS plastIca Viyilant
+778,rodri123,Cinta destapa cañeria 10MTS plastIca Viyilant
+779,rodri231,Cinta destapa cañeria 15MTS plastIca Viyilant
+780,mari123123,Silicona NEUTRA negra silimaxx
+782,ROD2312,Automatico para tanque VIYILANT
+783,SP63,Conjunto de arranque
+784,anten,antena direccional uhf tda 4 elementos
+785,ant,antena direccional uhf tda 5 elementos
+842,ML12311,Pinza universal 7 rotweiller
+843,Ml12312321,Llave ajustable 8 rottweiler
+848,Ferr1212,Anafe simple electrico
+841,Dan123123,Lijas Hunter (consultar medidas disponibles)
+852,Sp123123213,Griferia mesada recta
+792,Marian,"Tanza de pesca 0,40 (caja por 12)"
+793,marian2,"Tanza de pesca 0,50 (caja por 12)"
+794,Marian123,Señuelo calamar x4
+796,Marian123,Tanza de pesca JOCKER 3D
+797,Cardeni1231,Reflector de cuarzo 150w con vela
+798,Cris112312,Set destornillador torx x6 pzs precision
+799,Cris12312,LLave mandril x4
+800,Cri11231,Linterna Led usb Metal
+856,ROBER20,Mecha para madera en caja x5pzs
+807,xper,Disco Tyrolit Expert 7'
+808,portalamp123,Portalampara curvo negro
+809,portalamparas123123,Portalampara recto negro
+805,Rober1231231,"Cinta metrica 7,5 mts"
+857,Bra1123123,Zapatillas de trabajo PRO FORCE
+812,Ferr12112,Soldadora iron 140 LUSQTOFF
+813,Lusqtq1211,Soldadora iron 250 Lusqtoff
+1098,luxom1231,Plafon 12W Embutir cuadrado Luxom
+816,Cris123123,Portalampara con sensor de movimiento
+817,CRIS123123,Cinta metrica 3 mts Viral tik tok
+818,Cris131231123,Cinta metrica 5 mts viral de tik tok(sin stock)
+819,cRIS123123,Codo de fusion con orejas para sujetar pared
+820,Cris12312321,Macho interno para hacer rosca de caño
+821,cris123123,Casco libus normalizado
+822,Marc123123,Jarra electrica para mate
+823,Mar123123,Set de tubos maletin oryx 108 pcs
+824,clavo3,clavo 3
+829,sp64,"LLave T con bocallave metalica(9,10,11,12,13)"
+1062,FERR77,Equipo de pintar oryx
+831,Dani1231,Cinta komelon 8MTS Replica
+832,Sp1231232,Martillo Galponero
+833,asdasdasd,Medidor de voltaje Enchufable
+855,SP123123,Trampera Rata
+835,Electos121,Termotanque universal 40 Electrico
+836,eletros123123,Termotanque universal 60 Electrico
+837,electos12321,Termotanque universal 130 Electrico
+854,123123123,Pinza sacabocado 6
+860,inflador,inflador portatil inalambrico
+862,copa,disco copa segmentado
+863,filtro5,Filtro albañil 20cm
+865,disc,Disco 7 SEGMENTADO o lISO
+866,Dan1231231,Disco Tyrolit Expert 115x1.6
+867,Marc1231233,Escalera gamma 4x4 aluminio plegable
+868,mARC1235,Estufa cañon a gas Lusqtoff
+869,mAR112313,Bacha de cocina Lusqtoff Doble Acero inox
+870,Mar1231234,Bomba sumergible para agua sucia Lusqtoff
+873,cRISTIAN1231231,Llave ajustable plomero METALICA
+874,electrossty,Pochoclera
+875,Marc12312331,Kit para compresor lusqtoff X5
+1060,mate,mate alto impacto
+878,cris13,"Cinta metrica 7,5 mts Viral tik tok(sin stock)"
+879,tramperaa,Trampera grande reforzada
+880,disco muela,disco muela diamantado
+881,abrazadera,abrazadera x 14piezas
+882,ASDASD,Soporte tv movil 14 a 42
+891,tv,mi tv stick
+892,farol,farol chapa de pared 4 caras vidrio iluminacion 7N
+893,trapezoidal,colgante trapezoidal black 25cm cod441-nm iluminacion
+894,cubo,colgante cubo black 15x15 cod:558 iluminacion
+895,spot riel,spot riel dicroica negro/blanco 34cm negro cod2101-1 iluminacion
+896,spot,spot riel dicroica negro/blanco 34cm blanco cod2101 iluminacion
+897,spot riel b,spot riel dicroica blanco 80cm 3 luces iluminacion cod2102
+898,spot b,Spot riel dicroica blanco 80cm 4 luces iluminacion cod2103
+899,spot blanco tulipa p,spot blanco tulipa  cod2000-pbc iluminacion
+900,spot blanco tulipa p,2 luces spot blanco tulipa  cod2001-pbc iluminacion
+901,cEPASD,Cepillo copa n3
+902,Cristian21,Mecha para metal 13 piezas
+904,12321,TV BOX MI STICK
+957,sp71,"Duchador de mano 1,5mts"
+906,123123,Tortuga ovalada iluminacion 954
+907,asdasd,Amoladora lusqtoff 850W
+975,bri1231,Cable taller 2X4MM normalizado TREFILCON
+909,23456,tortuga chapa redonda iluminacion 951
+910,carl1231C,Caja de herramientas nacional
+911,FERREM2,Soldadora inverter sml100-7
+916,123456,Disco removedor de pintura y pulidor
+917,clav,clavo 1
+918,clav,"clavo 1,5"
+919,clavoo,clavo 2
+920,cclav,clavo 4
+922,ollaa,bateria de cocina
+923,caja,Caja de herramientas nacional con divisor
+1010,MARIAN123123,Silicona acetica Blanca silimaxx
+926,dicroica iluminacion,cabezal para dicroica iluminacion
+928,colgante ilumin,colgante de chapa iluminacion
+929,iluminacion,2075 tulipa
+930,carli12312,Lampara bolichera
+931,sP123123,Set juego destornillador taxi
+932,ingco,taladro 12v con cargador usb y maletin ingco
+933,ingco,amoladora 125mm 900w ingco
+934,HIKPS28318  ingco,"SET DE PINZA Y ALICATES AISLADOS 8"" 6"" 6"" (3 PCS) INDUSTRIAL"
+935,HKTS12602 INGCO,"JUEGO DE TUBOS DE 62 PIEZAS 1/2"" INGCO"
+936,HKTS14122 INGCO,"- JUEGO DE TUBOS 12 PIEZAS (10 TUBOS/ LLAVE CRIQUE 1/4""/BARRA EXTENSIÓN) INGCO"
+937,HKSPA1088 INGCO,JUEGO DE LLAVES COMBINADAS MILIMETRICAS 8 PIEZAS 6- 19MM INGCO
+938,HADWK031 INGCO,JUEGO DE 3 LLAVES AJUSTABLES 6-8- 10MM INGCO
+939,HKSD0828 INGCO,JUEGO DESTORNILLADORES 8 PIEZAS INGCO
+940,CRHLI20208 INGCO,ROTOMARTILLO 20V BRUSHLESS 2.0J INGCO
+941,FBLI20011 INGCO,BATERIA 2.0AH 20V INCLUYE LED DE CARGA INGCO
+942,FCLI2001-4 INGCO,CARGADOR RAPIDO BATERIAS 2.0 / 4.0 AH
+943,SDBIM11PH223 INGCO,PUNTA ATORNILLAR DE IMPACTO PHILLIPS S2 PH 2 X 50MM (CAJA X 10 PIEZAS) INGCO
+944,HRS108 INGCO,"REMACHADORA 10,5"""
+945,HCP08168 INGCO,"PINZA UNIVERSAL 6"" / 160MM"
+946,HWSP15608 INGCO,PELACABLE MANUAL INGCO
+947,HCG1809 INGCO,"HCG1809 - PISTOLA APLICADORA SILICONA 9"""
+948,CHPTB78602 INGCO,"CHPTB78602 - PINCEL 2"""
+949,CHPTB78625 INGCO,"CHPTB78625 - PINCEL 2.5"""
+950,CHPTB78604 INGCO,"CHPTB78604 - PINCEL 4"""
+951,HSPP41602 NGCO,HSPP41602 - FUMIGADOR PULVERIZADOR MOCHILA 16LT 4.5BAR INGCO
+952,SDBIM11PH263 INGCO,SDBIM11PH263 - SET PUNTAS PH2 150MM LARGAS IMPACTO
+953,DM360011 INGCO,DM360011 - TESTER MULTÍMETRO DIGITAL 600V INGCO
+954,DCM62001 INGCO,DCM62001 - PINZA AMPERIMÉTRICA DIGITAL DE CA
+955,SP69,Escuadra flecha imantada 25LB
+956,sp70,Escuadra flecha imantada 50LB
+1095,ASDASDASD,Timmer analogico Candela
+965,total,Nivel Total 120cm
+966,kld,Rotomartillo KLD 850w
+967,SOLA,Nivel de mano SOLA 40cm
+968,solaa,Nivel de mano SOLA 80cm
+969,FBLI20031,Bateria 20v li-on FBLI20031
+1093,sP12312311,Soga elastica colores x4 piezas
+971,mosqueton,mosqueton 12pzs
+972,latex,guantes latex naranja
+973,dinax,balanza digital dinax
+974,dinaxx,exprimidor
+980,arc130,soldadora gamma arc130
+977,bri13141,Cable taller 2X6MM normalizado TREFILCON
+981,pinza ampi,pinza amperometrica
+982,bravo,Tester Multimetro Digital Barovo Mul860u C/ Buzzer + Puntas
+1073,ferrem32,Martillo demoledor encastre hexagonal OMAHA
+984,barovo,Escuadra Laser 90º Doble Burbuja Ventosa 8m Cerámica Cuadros
+985,barovo,Detector Voltaje Lapiz Tensión Óptico Luz Led Cable Cortado
+986,total,Lijadora Orbital Palma 240w TOTAL
+987,TOTAL,Pistola Para Pintar Neumática 400cc Total
+992,balanz,balanza digital de mano
+993,interlec,lampara interelec 9w
+1069,cristian27,Metro de madera 2M
+998,tapa inodoro,Tapa inodoro FAPLAS roja
+997,tri40,Caramelera gel-tek bloque x1kg
+999,pilas,pilas triple AAA
+1000,TRIU22,Canilla 1/2 SILPLA
+1001,derplas1,"Cable taller 3x2,5MM ECO"
+1088,sp1231223,Candado perno lateral 80mm
+1002,sp56,Set llave T  x21PCS
+1003,pu40,Sellador poliuretanico PU40 GRIS Silimaxx
+1004,SILIMAX,Lubricante multiuso SILIMAXX
+1005,faplas,Tapa inodoro FAPLAS negra
+1006,faplas,Tapa inodoro FAPLAS azul
+1007,faplas,Tapa inodoro FAPLAS verde oscuro
+1008,Sp12312321234,Set cutter x24 unidades super calidad
+1012,pilas,pilas doble AA
+1013,SP68,Trampera para lauchas coyote
+1014,coaxil,cable coaxil 160mts
+1015,sacabocado,sacabocado de golpe x 6piezas
+1016,hacha,hacha de mano
+1017,CHPTB78601,"Pincel 1"" Mango Amarillo"
+1018,CHPTB78603,Pincel Mango Plastico 3ing
+1019,CHPTB78615,"PINCEL 1,5 INGCO"
+1020,RH10506-4,RH10506-4 – ROTOMARTILLO ELÉCTRICO SDS+ – 1050W – 4.5J CON MALETÍN
+1021,Rgh9028-4,Rotomartillo Sds Plus 800w C/maletin Ingco Rgh9028-4
+1022,CAGLI27153,CAGLI27153 – AMOLADORA 20V 4 1/2″ BRUSHLESS – SIN BAT. NI CARGADOR INGCO
+1023,htbp040128,Cartuchera Porta Herramientas 5 Bolsillos Ingco Htbp040128 INGCO
+1024, HPUT08060,HPUT08060 Espátula INGCO
+1025,AKDB5055,Juego De Brocas Para Madera 5 Piezas AKDB5055
+1096,12312312,Atornillador Ingco 2 baterias cargador y valija
+1028,timbre enchufable,timbre enchufable
+1071,escalera,escalera articulada gamma 4x4
+1031,ducha23,Resistencia resorte lorenzetti
+1032,Rob123,Piramide triple 3 caras
+1033,SILICONA2313,Espuma de poliuretano 750ML Silimaxx
+1034,cristian3,Metro de madera 1 Madera
+1035,CRIS24,Mecha diamantada 35mm
+1036,cristian22,Mecha diamantada 40mm
+1094,Cri123123,Puntera de regulador gas
+1040,rob1231,"Regulador 1,4 mts azul"
+1041,megac,Set cucharas x6 virales
+1042,muñequera,muñequera imantada
+1043,navaja,tarjeta navaja
+1044,golpe,manopla golpe
+1045,reloj,reloj metal
+1046,bolsa,bolsa sumergible
+1047,cortaplumas,cortaplumas
+1048,base,base lavarropas
+1049,huella,huellas
+1050,plato,plato antivuelco
+1051,batidor cafe,batidor cafe
+1052,gancho,soporte gancho auto
+1053,gorro migraña,gorro migraña
+1054,masajeador,masajeador alambre
+1055,llave francesa,llave francesa 6
+1056,llave francesa,llave francesa 8
+1057,llave francesa,llave francesa 10
+1058,llave francesa,llave francesa12
+1059,mini,Minimotosierra lusqtoff garden plus
+1065,ferre32,Protector tension Lusqotff
+1066,FERRE31,Protector tension digital 5s  Lusqtoff
+1067,ferre41,Extensor de wifi lusqtoff
+1068,Cris1231232,Broca conica diamantada 9-50mm
+1074,sp74,Caja organizadora n3
+1075,INGCO12,Cutter 9mm HKNS110925
+1076,INGCO13,Tijera corta caño pvc hasta 42cm HPC0442
+1077,INGCO14,Corta perno 24´ HBCO824
+1078,INGCO15,Martillo galponero 450gm HCH81016
+1079,INGCO16,Set boquilla magnetica 1/4 3PIEZAS UAMN1031
+1080,INGCO17,Pulverizador 1.5 manual HSPP201502
+1081,INGCO18,Llave crique 1/2 HRTH0812
+1082,INGCO19,Llave crique 1/4 HRTH0814
+1083,mARCE12312,Generador Naftero 15HP Garden plus Lusqtoff
+1084,mar1231,Bateria cocina lusqtoff 9PCS
+1085,MAR123,Bomba sumergible perforacion lusqtoff
+1092,234234234,Soga esperanza 10x100mts
+1099,213123,Plafon 18W Embutir cuadrado Luxom
+1100,12312312,Plafon 24W Embutir cuadrado Luxom
+1101,21312,Plafon 12W Embutir redondo Luxom
+1102,7789,Plafon 18W Embutir redondo Luxom
+1103,123123,Plafon 24W Embutir redondo Luxom
+1104,123123121,Plafon 36W exterior cuadrado Resilente
+1105,mar1231,Plafon 24W exterior cuadrado Resilente
+1106,12312312121,Plafon 18W exterior cuadrado Resilente
+1107,disco41231,Plafon 12W exterior cuadrado Resilente
+1108,123123,Machete 20
+1109,1231231231,Espuma luxom 300ml
+1110,E1231232,Espuma de poliuretano 500ml luxom
+1111,12123123212,Disco Trf 7 180mm
+1112,cuchara,cuchara gherardi n8
+1113,213123123123123,Rastrillo rojo importado
+1114,mar1298321,Silicona acetica transparente lusqtoff garden plus
+1115,lux40,Lampara 10w colores ROJO
+1116,LUX41,Lampara 10w colores VERDE
+1117,LUX42,Lampara 10w colores AMARILLO
+1118,LUX43,Lampara 10w colores AZUL
+1119,marce1241,Amoladora 115 OMAHA 750W
+1120,crus123,Disco madera con cadena motosierra
+1121,marc123123511124,Bordeadora indeplast 600w protector facial de regalo
+1125,tanza1,"Tanza cuadrada 2,5"
+1126,tanza2,Tanza cuadrada 3
+1127,tanza3,"Tanza redonda 1,5"
+1128,tanza4,Tanza redonda 2

@@ -1,0 +1,328 @@
+{
+  "name": "agente-comedor copy",
+  "nodes": [
+    {
+      "parameters": {
+        "formTitle": "Upload your data to test RAG",
+        "formFields": {
+          "values": [
+            {
+              "fieldLabel": "Upload your file(s)",
+              "fieldType": "file",
+              "acceptFileTypes": ".pdf, .csv",
+              "requiredField": true
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.formTrigger",
+      "typeVersion": 2.2,
+      "position": [
+        592,
+        112
+      ],
+      "id": "a379d6da-375f-4512-bb11-288199185084",
+      "name": "Upload your file here",
+      "webhookId": "5501a8c8-8970-4848-b6f5-df2f65ae9306",
+      "disabled": true
+    },
+    {
+      "parameters": {
+        "dataType": "binary",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.documentDefaultDataLoader",
+      "typeVersion": 1.1,
+      "position": [
+        1040,
+        272
+      ],
+      "id": "90c52760-8117-4e96-8320-b0bd52eb28fb",
+      "name": "Default Data Loader"
+    },
+    {
+      "parameters": {
+        "content": "### 📚 Load Data Flow",
+        "height": 460,
+        "width": 700,
+        "color": 7
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        544,
+        48
+      ],
+      "typeVersion": 1,
+      "id": "534eb7d0-a454-4c5c-ad82-5ffcfa5948b2",
+      "name": "Sticky Note1"
+    },
+    {
+      "parameters": {
+        "mode": "insert",
+        "memoryKey": {
+          "__rl": true,
+          "value": "vector_store_key",
+          "mode": "list",
+          "cachedResultName": "vector_store_key"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.vectorStoreInMemory",
+      "typeVersion": 1.2,
+      "position": [
+        784,
+        112
+      ],
+      "id": "f0c5fde4-f59b-4e5c-a030-2c95f69fdfca",
+      "name": "Insert Data to Store"
+    },
+    {
+      "parameters": {
+        "mode": "retrieve-as-tool",
+        "toolName": "knowledge_base",
+        "toolDescription": "Use this knowledge base to answer questions from the user",
+        "memoryKey": {
+          "__rl": true,
+          "mode": "list",
+          "value": "vector_store_key"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.vectorStoreInMemory",
+      "typeVersion": 1.2,
+      "position": [
+        1856,
+        352
+      ],
+      "id": "2091b18f-a227-496b-b391-ff79be994389",
+      "name": "Query Data Tool"
+    },
+    {
+      "parameters": {
+        "options": {
+          "systemMessage": "Rol del asistente:\nActuás como un asistente virtual exclusivo para tareas operativas en un Centro  pyme de la universidad. Solo das instrucciones claras, paso a paso, y siempre respetando \"CONDICIONES GENERALES en tu memoria RAG"
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 2,
+      "position": [
+        1664,
+        96
+      ],
+      "id": "cf49c140-5e82-4ca2-9565-98e7c2e19bc3",
+      "name": "AI Agent"
+    },
+    {
+      "parameters": {
+        "content": "### 🐕 2. Retriever Flow",
+        "height": 460,
+        "width": 680,
+        "color": 7
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        1328,
+        48
+      ],
+      "typeVersion": 1,
+      "id": "3082ac11-a21c-41d1-93d1-e2740c4f3a70",
+      "name": "Sticky Note2"
+    },
+    {
+      "parameters": {
+        "options": {
+          "temperature": 0.4
+        }
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "typeVersion": 1,
+      "position": [
+        1440,
+        336
+      ],
+      "id": "d8910feb-795b-44e5-a619-9887737c69f0",
+      "name": "Google Gemini Chat Model",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "0OXVsIrkJHs1GkKd",
+          "name": "Google Gemini(PaLM) Api account 2"
+        }
+      }
+    },
+    {
+      "parameters": {},
+      "type": "@n8n/n8n-nodes-langchain.embeddingsGoogleGemini",
+      "typeVersion": 1,
+      "position": [
+        960,
+        560
+      ],
+      "id": "e4971a44-6889-4bbd-aa79-f726409a134b",
+      "name": "Embeddings Google Gemini",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "0OXVsIrkJHs1GkKd",
+          "name": "Google Gemini(PaLM) Api account 2"
+        }
+      }
+    },
+    {
+      "parameters": {},
+      "type": "@n8n/n8n-nodes-langchain.memoryBufferWindow",
+      "typeVersion": 1.3,
+      "position": [
+        1680,
+        304
+      ],
+      "id": "6aa7cf99-4634-4e58-8841-418a22b1de74",
+      "name": "Simple Memory"
+    },
+    {
+      "parameters": {
+        "functionCode": "return [{\n  html: `<!DOCTYPE html>\n<html lang=\"es\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>Asistente Comedor - Voz</title>\n<style>\n  body { \n    font-family: Arial, sans-serif; \n    padding: 20px; \n    background-color: #f5f5f5;\n    max-width: 800px;\n    margin: 0 auto;\n  }\n  \n  .container {\n    background: white;\n    padding: 30px;\n    border-radius: 10px;\n    box-shadow: 0 2px 10px rgba(0,0,0,0.1);\n    text-align: center;\n  }\n  \n  h2 {\n    color: #2c3e50;\n    margin-bottom: 30px;\n  }\n  \n  button { \n    padding: 15px 30px; \n    font-size: 18px; \n    margin: 10px; \n    cursor: pointer;\n    border: none;\n    border-radius: 8px;\n    transition: all 0.3s ease;\n  }\n  \n  #btnGrabar {\n    background-color: #e74c3c;\n    color: white;\n  }\n  \n  #btnGrabar:hover {\n    background-color: #c0392b;\n    transform: scale(1.05);\n  }\n  \n  #btnGrabar.grabando {\n    background-color: #27ae60;\n    animation: pulse 1s infinite;\n  }\n  \n  @keyframes pulse {\n    0% { opacity: 1; }\n    50% { opacity: 0.7; }\n    100% { opacity: 1; }\n  }\n  \n  #texto { \n    margin-top: 30px; \n    font-size: 16px;\n    padding: 20px;\n    background-color: #ecf0f1;\n    border-radius: 8px;\n    border-left: 4px solid #3498db;\n    text-align: left;\n    min-height: 60px;\n  }\n  \n  #respuesta {\n    margin-top: 20px;\n    padding: 20px;\n    background-color: #e8f5e8;\n    border-radius: 8px;\n    border-left: 4px solid #27ae60;\n    text-align: left;\n    display: none;\n  }\n  \n  .status {\n    margin-top: 15px;\n    font-style: italic;\n    color: #7f8c8d;\n  }\n  \n  .error {\n    background-color: #fadbd8;\n    border-left-color: #e74c3c;\n    color: #c0392b;\n  }\n</style>\n</head>\n<body>\n\n<div class=\"container\">\n  <h2>🎙️ Asistente de Voz - Comedor Comunitario</h2>\n  \n  <p>Presiona el botón y habla para recibir ayuda con las tareas del comedor</p>\n  \n  <button id=\"btnGrabar\">🎤 Iniciar Grabación</button>\n  \n  <div id=\"texto\">Texto reconocido aparecerá aquí...</div>\n  <div id=\"respuesta\"></div>\n  <div id=\"status\" class=\"status\"></div>\n</div>\n\n<script>\nconst btn = document.getElementById(\"btnGrabar\");\nconst textoDiv = document.getElementById(\"texto\");\nconst respuestaDiv = document.getElementById(\"respuesta\");\nconst statusDiv = document.getElementById(\"status\");\n\n// URL del webhook - URL correcta de tu instancia\nconst N8N_WEBHOOK_URL = \"https://agente-inteligente-n8n.blzgrm.easypanel.host/webhook/28430542-b936-4c98-a26c-7e3d62df83d0\";\n\nlet recognition;\nlet grabando = false;\n\n// Verificar compatibilidad con navegadores\nconst SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;\nif (!SpeechRecognition) {\n  statusDiv.textContent = \"❌ Tu navegador no soporta reconocimiento de voz. Prueba con Chrome o Edge.\";\n  statusDiv.className = \"status error\";\n  btn.disabled = true;\n} else {\n  statusDiv.textContent = \"✅ Reconocimiento de voz disponible\";\n  \n  recognition = new SpeechRecognition();\n  recognition.lang = \"es-ES\";\n  recognition.interimResults = false;\n  recognition.continuous = false;\n  recognition.maxAlternatives = 1;\n\n  recognition.onstart = () => {\n    statusDiv.textContent = \"🎧 Escuchando... Habla ahora\";\n    btn.classList.add(\"grabando\");\n  };\n\n  recognition.onresult = (event) => {\n    const texto = event.results[0][0].transcript;\n    const confidence = event.results[0][0].confidence;\n    \n    textoDiv.innerHTML = \"<strong>📄 Texto reconocido:</strong><br>\" + texto;\n    if (confidence < 0.7) {\n      textoDiv.innerHTML += \"<br><small style='color: #e67e22;'>⚠️ Confianza baja (\" + Math.round(confidence*100) + \"%) - podrías repetir más claro</small>\";\n    }\n    \n    statusDiv.textContent = \"📤 Enviando pregunta al asistente...\";\n    enviarTexto(texto);\n  };\n\n  recognition.onerror = (event) => {\n    console.error(\"Error en reconocimiento:\", event.error);\n    let mensajeError = \"\";\n    \n    switch(event.error) {\n      case 'network':\n        mensajeError = \"❌ Error de conexión. Verifica tu internet.\";\n        break;\n      case 'not-allowed':\n        mensajeError = \"❌ Permiso de micrófono denegado. Habilítalo en tu navegador.\";\n        break;\n      case 'no-speech':\n        mensajeError = \"❌ No se detectó habla. Intenta de nuevo.\";\n        break;\n      default:\n        mensajeError = \"❌ Error: \" + event.error;\n    }\n    \n    statusDiv.textContent = mensajeError;\n    statusDiv.className = \"status error\";\n    \n    setTimeout(() => {\n      statusDiv.textContent = \"✅ Listo para escuchar\";\n      statusDiv.className = \"status\";\n    }, 3000);\n  };\n\n  recognition.onend = () => {\n    grabando = false;\n    btn.textContent = \"🎤 Iniciar Grabación\";\n    btn.classList.remove(\"grabando\");\n    \n    if (statusDiv.textContent.includes(\"Escuchando\")) {\n      statusDiv.textContent = \"✅ Listo para escuchar\";\n    }\n  };\n}\n\nbtn.addEventListener(\"click\", () => {\n  if (!grabando && recognition) {\n    try {\n      recognition.start();\n      grabando = true;\n      btn.textContent = \"⏹ Detener Grabación\";\n      respuestaDiv.style.display = \"none\";\n    } catch (error) {\n      console.error(\"Error al iniciar reconocimiento:\", error);\n      statusDiv.textContent = \"❌ Error al iniciar. Intenta de nuevo.\";\n      statusDiv.className = \"status error\";\n    }\n  } else if (grabando && recognition) {\n    recognition.stop();\n  }\n});\n\nfunction enviarTexto(texto) {\n  // Mostrar indicador de carga\n  respuestaDiv.innerHTML = \"🤖 El asistente está pensando...\";\n  respuestaDiv.style.display = \"block\";\n  \n  fetch(N8N_WEBHOOK_URL, {\n    method: \"POST\",\n    headers: { \n      \"Content-Type\": \"application/json\",\n      \"Accept\": \"application/json\"\n    },\n    body: JSON.stringify({ \n      message: texto,\n      chatId: \"voice-interface-\" + Date.now()\n    })\n  })\n  .then(response => {\n    if (!response.ok) {\n      throw new Error(\"HTTP \" + response.status + \": \" + response.statusText);\n    }\n    return response.json();\n  })\n  .then(data => {\n    console.log(\"Respuesta completa del asistente:\", data);\n    \n    // Intentar extraer la respuesta del formato de n8n\n    let respuestaTexto = \"\";\n    \n    if (data.output) {\n      respuestaTexto = data.output;\n    } else if (data.message) {\n      respuestaTexto = data.message;\n    } else if (data.response) {\n      respuestaTexto = data.response;\n    } else if (typeof data === 'string') {\n      respuestaTexto = data;\n    } else {\n      respuestaTexto = \"✅ Mensaje enviado correctamente al asistente.\";\n    }\n    \n    respuestaDiv.innerHTML = \"<strong>🤖 Respuesta del asistente:</strong><br>\" + respuestaTexto;\n    statusDiv.textContent = \"✅ Respuesta recibida. Puedes hacer otra pregunta.\";\n  })\n  .catch(error => {\n    console.error(\"Error al enviar:\", error);\n    respuestaDiv.innerHTML = \"<strong>❌ Error de conexión:</strong><br>\" +\n      \"No se pudo conectar con el asistente. Verifica:<br>\" +\n      \"• Que la URL del webhook esté correcta<br>\" +\n      \"• Que el workflow de n8n esté activo<br>\" +\n      \"• Tu conexión a internet<br>\" +\n      \"<small>Error técnico: \" + error.message + \"</small>\";\n    respuestaDiv.className = \"error\";\n    statusDiv.textContent = \"❌ Error de conexión con el asistente\";\n    statusDiv.className = \"status error\";\n  });\n}\n\n// Solicitar permisos de micrófono al cargar la página\nwindow.addEventListener('load', () => {\n  if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {\n    navigator.mediaDevices.getUserMedia({ audio: true })\n      .then(() => {\n        console.log(\"Permisos de micrófono concedidos\");\n      })\n      .catch(() => {\n        statusDiv.textContent = \"⚠️ Se necesitan permisos de micrófono para funcionar\";\n        statusDiv.className = \"status error\";\n      });\n  }\n});\n</script>\n\n</body>\n</html>`\n}];"
+      },
+      "id": "cbd75338-9d97-46c5-a065-cf6e6960f278",
+      "name": "Generar HTML Interfaz Voz",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [
+        1056,
+        -128
+      ],
+      "alwaysOutputData": true,
+      "executeOnce": true,
+      "retryOnFail": true
+    },
+    {
+      "parameters": {
+        "path": "interfaz-voz",
+        "responseMode": "lastNode",
+        "responseData": "={{$json[\"html\"]}}",
+        "options": {
+          "responseContentType": "text/html"
+        }
+      },
+      "id": "e29cd18c-946b-400e-ad5b-db677d39ca2c",
+      "name": "Interfaz Voz",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 1,
+      "position": [
+        1392,
+        -128
+      ],
+      "webhookId": "101f0564-0d3d-4211-b01d-3f2cc6b6f9a7"
+    },
+    {
+      "parameters": {
+        "public": true,
+        "mode": "webhook",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chatTrigger",
+      "typeVersion": 1.3,
+      "position": [
+        1392,
+        96
+      ],
+      "id": "4c817b59-971c-4c39-8731-971c36db2412",
+      "name": "When chat message received",
+      "webhookId": "b6bbf77d-c7cc-445f-aab5-0a7d6a9cbdc0"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Upload your file here": {
+      "main": [
+        [
+          {
+            "node": "Insert Data to Store",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Default Data Loader": {
+      "ai_document": [
+        [
+          {
+            "node": "Insert Data to Store",
+            "type": "ai_document",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Query Data Tool": {
+      "ai_tool": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google Gemini Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Embeddings Google Gemini": {
+      "ai_embedding": [
+        [
+          {
+            "node": "Insert Data to Store",
+            "type": "ai_embedding",
+            "index": 0
+          },
+          {
+            "node": "Query Data Tool",
+            "type": "ai_embedding",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Simple Memory": {
+      "ai_memory": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_memory",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "When chat message received": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "6b01d90b-2ad0-46e1-9e9d-ad4a4eeb256a",
+  "meta": {
+    "templateId": "rag-starter-template",
+    "templateCredsSetupCompleted": true,
+    "instanceId": "d1fc34d26e943d894d44bd589f5cc5778b5a2da48145d0296852617591fdbc73"
+  },
+  "id": "MKcq8UUpbgasS3rC",
+  "tags": []
+}

@@ -1,0 +1,482 @@
+{
+  "metadata": {
+    "context": "Predicciones basadas en modelos de machine learning para ferretería",
+    "date_generated": "2025-09-27"
+  },
+  "categories": [
+    {
+      "name": "Cerrajería y seguridad",
+      "high_volume_prob": 71.8,
+      "precision": 100.0,
+      "trend": "up"
+    },
+    {
+      "name": "Soldadura",
+      "high_volume_prob": 66.1,
+      "precision": 100.0,
+      "trend": "up"
+    },
+    {
+      "name": "Herramientas y soldadura",
+      "high_volume_prob": 65.4,
+      "precision": 100.0,
+      "trend": "up"
+    },
+    {
+      "name": "Herramientas eléctricas",
+      "high_volume_prob": 61.6,
+      "precision": 87.5,
+      "trend": "up"
+    },
+    {
+      "name": "Lubricantes y mantenimiento",
+      "high_volume_prob": 60.2,
+      "precision": 75.0,
+      "trend": "up"
+    },
+    {
+      "name": "Herramientas manuales",
+      "high_volume_prob": 59.4,
+      "precision": 75.0,
+      "trend": "up"
+    },
+    {
+      "name": "Seguridad y Comercio",
+      "high_volume_prob": 55.5,
+      "precision": 87.5,
+      "trend": "up"
+    },
+    {
+      "name": "Limpieza",
+      "high_volume_prob": 53.7,
+      "precision": 100.0,
+      "trend": "up"
+    },
+    {
+      "name": "Químicos y limpieza",
+      "high_volume_prob": 51.3,
+      "precision": 100.0,
+      "trend": "up"
+    },
+    {
+      "name": "Control de plagas",
+      "high_volume_prob": 50.3,
+      "precision": 100.0,
+      "trend": "up"
+    },
+    {
+      "name": "Seguridad y protección",
+      "high_volume_prob": 50.1,
+      "precision": 75.0,
+      "trend": "up"
+    },
+    {
+      "name": "Accesorios para herramientas",
+      "high_volume_prob": 49.5,
+      "precision": 75.0,
+      "trend": "up"
+    },
+    {
+      "name": "Electrónica y TV",
+      "high_volume_prob": 47.2,
+      "precision": 87.5,
+      "trend": "up"
+    },
+    {
+      "name": "Construcción y medición",
+      "high_volume_prob": 47.0,
+      "precision": 87.5,
+      "trend": "up"
+    },
+    {
+      "name": "Jardinería y limpieza",
+      "high_volume_prob": 42.0,
+      "precision": 62.5,
+      "trend": "up"
+    },
+    {
+      "name": "Climatización",
+      "high_volume_prob": 41.3,
+      "precision": 100.0,
+      "trend": "up"
+    },
+    {
+      "name": "Selladores y adhesivos",
+      "high_volume_prob": 39.1,
+      "precision": 100.0,
+      "trend": "up"
+    },
+    {
+      "name": "Automotor",
+      "high_volume_prob": 35.9,
+      "precision": 87.5,
+      "trend": "up"
+    },
+    {
+      "name": "Repuestos y componentes",
+      "high_volume_prob": 35.6,
+      "precision": 100.0,
+      "trend": "up"
+    },
+    {
+      "name": "Fontanería",
+      "high_volume_prob": 34.5,
+      "precision": 100.0,
+      "trend": "up"
+    }
+  ],
+  "products": [
+    {
+      "name": "llave tubo 950mm",
+      "category": "Herramientas manuales",
+      "predicted_units": 72411,
+      "trend": "up",
+      "based_on_months": 6
+    },
+    {
+      "name": "llave tubo 980mm",
+      "category": "Herramientas manuales",
+      "predicted_units": 45581,
+      "trend": "up",
+      "based_on_months": 5
+    },
+    {
+      "name": "cinta aisladora tacsa 10mts",
+      "category": "Selladores y adhesivos",
+      "predicted_units": 23118,
+      "trend": "up",
+      "based_on_months": 6
+    },
+    {
+      "name": "llave tubo 180mm",
+      "category": "Herramientas manuales",
+      "predicted_units": 23101,
+      "trend": "up",
+      "based_on_months": 6
+    },
+    {
+      "name": "Silicona en pomo acetica transparente SI",
+      "category": "Selladores y adhesivos",
+      "predicted_units": 22635,
+      "trend": "up",
+      "based_on_months": 7
+    },
+    {
+      "name": "resistencia bronce",
+      "category": "Fontanería",
+      "predicted_units": 18382,
+      "trend": "up",
+      "based_on_months": 8
+    },
+    {
+      "name": "filtro albañil 25cm",
+      "category": "Construcción y medición",
+      "predicted_units": 17721,
+      "trend": "up",
+      "based_on_months": 7
+    },
+    {
+      "name": "Ficha richi original macho",
+      "category": "Electrónica y TV",
+      "predicted_units": 16084,
+      "trend": "up",
+      "based_on_months": 6
+    },
+    {
+      "name": "Silicona acetica luxom TRANSPARENTE",
+      "category": "Selladores y adhesivos",
+      "predicted_units": 15682,
+      "trend": "up",
+      "based_on_months": 6
+    },
+    {
+      "name": "Soda caustica kilo",
+      "category": "Químicos y limpieza",
+      "predicted_units": 14766,
+      "trend": "up",
+      "based_on_months": 8
+    },
+    {
+      "name": "Teflon 1/2 x 10m LUXOM",
+      "category": "Selladores y adhesivos",
+      "predicted_units": 13233,
+      "trend": "up",
+      "based_on_months": 6
+    },
+    {
+      "name": "Caño corrugado blanco 3/4",
+      "category": "Fontanería",
+      "predicted_units": 11890,
+      "trend": "up",
+      "based_on_months": 7
+    },
+    {
+      "name": "Lampara alta potencia 40w Luxom",
+      "category": "Electrónica y TV",
+      "predicted_units": 11407,
+      "trend": "up",
+      "based_on_months": 5
+    },
+    {
+      "name": "llave tubo 1440mm",
+      "category": "Herramientas manuales",
+      "predicted_units": 10986,
+      "trend": "up",
+      "based_on_months": 6
+    },
+    {
+      "name": "aguarras jp",
+      "category": "Químicos y limpieza",
+      "predicted_units": 10643,
+      "trend": "up",
+      "based_on_months": 7
+    },
+    {
+      "name": "llave tubo 510mm",
+      "category": "Herramientas manuales",
+      "predicted_units": 9922,
+      "trend": "up",
+      "based_on_months": 7
+    },
+    {
+      "name": "Caño fusion 25 ECOAGUA",
+      "category": "Fontanería",
+      "predicted_units": 8264,
+      "trend": "up",
+      "based_on_months": 6
+    },
+    {
+      "name": "guante de nitrilo",
+      "category": "Seguridad y protección",
+      "predicted_units": 7544,
+      "trend": "up",
+      "based_on_months": 8
+    },
+    {
+      "name": "Teflon 3/4x 10m LUXOM",
+      "category": "Selladores y adhesivos",
+      "predicted_units": 7231,
+      "trend": "up",
+      "based_on_months": 8
+    },
+    {
+      "name": "guante de latex",
+      "category": "Seguridad y protección",
+      "predicted_units": 7179,
+      "trend": "up",
+      "based_on_months": 8
+    },
+    {
+      "name": "Zapatilla JOTAELE 3 mts 6 tomas multinor",
+      "category": "Electrónica y TV",
+      "predicted_units": 6776,
+      "trend": "up",
+      "based_on_months": 8
+    },
+    {
+      "name": "llave tubo 120mm",
+      "category": "Herramientas manuales",
+      "predicted_units": 6697,
+      "trend": "up",
+      "based_on_months": 7
+    },
+    {
+      "name": "guante moteado",
+      "category": "Seguridad y protección",
+      "predicted_units": 6330,
+      "trend": "up",
+      "based_on_months": 6
+    },
+    {
+      "name": "cinta aisladora tacsa 20mts",
+      "category": "Selladores y adhesivos",
+      "predicted_units": 5582,
+      "trend": "up",
+      "based_on_months": 7
+    },
+    {
+      "name": "Fotocelula luxom",
+      "category": "Electrónica y TV",
+      "predicted_units": 5582,
+      "trend": "up",
+      "based_on_months": 8
+    },
+    {
+      "name": "Sellarosca hidro 3 Chico",
+      "category": "Selladores y adhesivos",
+      "predicted_units": 5281,
+      "trend": "up",
+      "based_on_months": 7
+    },
+    {
+      "name": "Cabeza de regulador gas",
+      "category": "Fontanería",
+      "predicted_units": 5273,
+      "trend": "up",
+      "based_on_months": 7
+    },
+    {
+      "name": "Estufa 1200w doble",
+      "category": "Climatización",
+      "predicted_units": 5229,
+      "trend": "up",
+      "based_on_months": 7
+    },
+    {
+      "name": "Portalampara 3pz negro",
+      "category": "Electrónica y TV",
+      "predicted_units": 4971,
+      "trend": "up",
+      "based_on_months": 7
+    },
+    {
+      "name": "Lampara alta potencia 50w candela",
+      "category": "Electrónica y TV",
+      "predicted_units": 4880,
+      "trend": "up",
+      "based_on_months": 6
+    },
+    {
+      "name": "Cinta aisladora 10Mts luxom",
+      "category": "Selladores y adhesivos",
+      "predicted_units": 4858,
+      "trend": "up",
+      "based_on_months": 6
+    },
+    {
+      "name": "Canilla pvc reforzada 1/2 FAPLAS",
+      "category": "Fontanería",
+      "predicted_units": 4755,
+      "trend": "up",
+      "based_on_months": 7
+    },
+    {
+      "name": "llave tubo 26mm",
+      "category": "Herramientas manuales",
+      "predicted_units": 4657,
+      "trend": "up",
+      "based_on_months": 8
+    },
+    {
+      "name": "Termica sica 25AMP",
+      "category": "Electrónica y TV",
+      "predicted_units": 4466,
+      "trend": "up",
+      "based_on_months": 8
+    },
+    {
+      "name": "cinta doble faz",
+      "category": "Selladores y adhesivos",
+      "predicted_units": 4211,
+      "trend": "up",
+      "based_on_months": 8
+    },
+    {
+      "name": "Espuma de poliuretano SILIMAXX 500ML",
+      "category": "Selladores y adhesivos",
+      "predicted_units": 3865,
+      "trend": "up",
+      "based_on_months": 8
+    },
+    {
+      "name": "calefon marsico reforzado",
+      "category": "Climatización",
+      "predicted_units": 3823,
+      "trend": "up",
+      "based_on_months": 8
+    },
+    {
+      "name": "silicona NEUTRA transparente silimaxx",
+      "category": "Selladores y adhesivos",
+      "predicted_units": 3602,
+      "trend": "up",
+      "based_on_months": 8
+    },
+    {
+      "name": "Ficha tipo kalop macho negro",
+      "category": "Electrónica y TV",
+      "predicted_units": 3554,
+      "trend": "up",
+      "based_on_months": 8
+    },
+    {
+      "name": "Termica sica 32AMP",
+      "category": "Electrónica y TV",
+      "predicted_units": 3064,
+      "trend": "up",
+      "based_on_months": 8
+    },
+    {
+      "name": "guante de pvc",
+      "category": "Seguridad y protección",
+      "predicted_units": 2902,
+      "trend": "up",
+      "based_on_months": 8
+    },
+    {
+      "name": "Soporte de TV movil doble brazo 14-55",
+      "category": "Electrónica y TV",
+      "predicted_units": 2767,
+      "trend": "up",
+      "based_on_months": 8
+    },
+    {
+      "name": "Precinto 150x3,6",
+      "category": "Selladores y adhesivos",
+      "predicted_units": 2684,
+      "trend": "up",
+      "based_on_months": 8
+    },
+    {
+      "name": "Soporte de TV fijo 26-63",
+      "category": "Electrónica y TV",
+      "predicted_units": 2580,
+      "trend": "up",
+      "based_on_months": 8
+    },
+    {
+      "name": "Precinto 200x4,6",
+      "category": "Selladores y adhesivos",
+      "predicted_units": 2402,
+      "trend": "up",
+      "based_on_months": 8
+    },
+    {
+      "name": "llave tubo 29mm",
+      "category": "Herramientas manuales",
+      "predicted_units": 2161,
+      "trend": "up",
+      "based_on_months": 8
+    },
+    {
+      "name": "Cinta embalaje marron o transparente",
+      "category": "Selladores y adhesivos",
+      "predicted_units": 1861,
+      "trend": "up",
+      "based_on_months": 7
+    },
+    {
+      "name": "Precinto 350x4,6",
+      "category": "Selladores y adhesivos",
+      "predicted_units": 1744,
+      "trend": "up",
+      "based_on_months": 8
+    },
+    {
+      "name": "Gas butano KOVEA",
+      "category": "Climatización",
+      "predicted_units": 1655,
+      "trend": "up",
+      "based_on_months": 7
+    },
+    {
+      "name": "Precinto 250x4,6",
+      "category": "Selladores y adhesivos",
+      "predicted_units": 1565,
+      "trend": "up",
+      "based_on_months": 8
+    }
+  ],
+  "recommendations": [],
+  "adjustments": {}
+}

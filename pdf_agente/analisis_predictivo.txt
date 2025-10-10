@@ -1,0 +1,107 @@
+============================================================
+RESUMEN FINAL DE PREDICCIONES
+============================================================
+
+ PREDICCION PRODUCTOS (Regresion Lineal):
+   Productos analizados: 100
+   Productos predichos: 50
+   Rango de prediccion: 1565 - 72411 unidades
+  Tendencia positiva: 50 productos
+    Tendencia negativa: 0 productos
+ Crecimiento promedio: 3712.0%
+
+ PREDICCION RUBROS (Regresion Logistica):
+   Rubros analizados: 28
+   Rubros predichos: 20
+Probabilidad promedio alto volumen: 50.9%
+PrecisiÃ³n promedio del modelo: 90.0%
+Volumen promedio por rubro: 328.3 unidades
+
+ARCHIVOS EXPORTADOS:
+   - prediccion_top_productos_lineal.csv
+   - prediccion_top_rubros_logistica.csv
+   - resumen_predicciones.txt
+
+============================================================
+RECOMENDACIONES ESTRATEGICAS DETALLADAS
+============================================================
+
+TOP 5 PRODUCTOS CON MAYOR CRECIMIENTO ESPERADO:
+   1. llave tubo 950mm
+      Prediccion: 72411 unidades
+      Crecimiento: +24797.9%
+      Tendencia: +20664.9 unidades/mes
+      Precision del modelo: 98.3%
+
+   2. llave tubo 980mm
+      Prediccion: 45581 unidades
+      Crecimiento: +23198.8%
+      Tendencia: +15172.0 unidades/mes
+      PrecisiÃ³n del modelo: 100.0%
+
+   3. cinta aisladora tacsa 10mts
+      Prediccion: 23118 unidades
+      Crecimiento: +8778.2%
+      Tendencia: +6583.6 unidades/mes
+      Precision del modelo: 71.8%
+
+   4. llave tubo 180mm
+      Prediccion: 23101 unidades
+      Crecimiento: +7797.8%
+      Tendencia: +6576.2 unidades/mes
+      Precision del modelo: 45.4%
+
+   5. Silicona en pomo acetica transparente SILIMAXX 85G
+      Prediccion: 22635 unidades
+      Crecimiento: +8719.3%
+      Tendencia: +5642.6 unidades/mes
+      Precision del modelo: 94.6%
+
+TOP 3 PRODUCTOS CON MAYOR VOLUMEN PREDICHO:
+   1. llave tubo 950mm
+      Volumen predicho: 72411 unidades
+      Volumen histo³rico: 83.3 unidades/mes
+     Incremento esperado: 86828.0%
+
+   2. llave tubo 980mm
+       Volumen predicho: 45581 unidades
+      Volumen historico: 65.4 unidades/mes
+       Incremento esperado: 69595.7%
+
+   3. cinta aisladora tacsa 10mts
+      Volumen predicho: 23118 unidades
+      Volumen histOrico: 75.0 unidades/mes
+       Incremento esperado: 30724.0%
+
+TOP 3 RUBROS CON MAYOR POTENCIAL:
+   1. Cerrajeria y seguridad
+      Probabilidad alto volumen: 71.8%
+       Precision del modelo: 100.0%
+      Volumen promedio: 25.1 unidades/mes
+      Facturas promedio: 2.5 facturas/mes
+
+   2. Soldadura
+      Probabilidad alto volumen: 66.1%
+       Precision del modelo: 100.0%
+      Volumen promedio: 211.1 unidades/mes
+       Facturas promedio: 18.0 facturas/mes
+
+   3. Herramientas y soldadura
+      Probabilidad alto volumen: 65.4%
+      Precision del modelo: 100.0%
+       Volumen promedio: 102.6 unidades/mes
+       Facturas promedio: 8.0 facturas/mes
+
+ RECOMENDACIONES GENERALES:
+   Enfocar inventario en los 5 productos con tendencia positiva
+    Monitorear de cerca los 0 productos con tendencia negativa
+    Priorizar los 3 rubros con mayor probabilidad de alto volumen
+    Revisar estrategia para rubros con probabilidad menor al 60%
+
+ METRICAS DE CONFIANZA DE LOS MODELOS:
+  Precision promedio modelos productos: 75.8%
+   Confiabilidad promedio modelos rubros: 50.9%
+   Productos con R² > 0.7: 34
+   Rubros con confiabilidad > 70%: 1
+
+

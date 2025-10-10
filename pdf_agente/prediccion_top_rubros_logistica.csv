@@ -1,0 +1,21 @@
+rubro,probabilidad_alto_volumen,precision_modelo,datos_historicos,volumen_promedio,facturas_promedio,confiabilidad
+Cerrajería y seguridad,0.718,1.0,8,25.1,2.5,71.8
+Soldadura,0.661,1.0,8,211.1,18.0,66.1
+Herramientas y soldadura,0.654,1.0,7,102.6,8.0,65.4
+Herramientas eléctricas,0.616,0.875,8,23.8,5.6,61.6
+Lubricantes y mantenimiento,0.602,0.75,8,186.2,13.8,60.2
+Herramientas manuales,0.594,0.75,8,2783.2,102.5,59.4
+Seguridad y Comercio,0.555,0.875,8,54.9,9.1,55.5
+Limpieza,0.537,1.0,6,43.3,1.7,53.7
+Químicos y limpieza,0.513,1.0,8,131.0,7.4,51.3
+Control de plagas,0.503,1.0,4,85.0,5.5,50.3
+Seguridad y protección,0.501,0.75,8,369.4,25.1,50.1
+Accesorios para herramientas,0.495,0.75,8,325.6,22.8,49.5
+Electrónica y TV,0.472,0.875,8,104.5,14.5,47.2
+Construcción y medición,0.47,0.875,8,95.5,7.5,47.0
+Jardinería y limpieza,0.42,0.625,8,27.8,4.9,42.0
+Climatización,0.413,1.0,8,198.1,15.6,41.3
+Selladores y adhesivos,0.391,1.0,8,784.0,34.6,39.1
+Automotor,0.359,0.875,8,59.1,9.1,35.9
+Repuestos y componentes,0.356,1.0,8,343.5,23.4,35.6
+Fontanería,0.345,1.0,8,612.6,29.4,34.5

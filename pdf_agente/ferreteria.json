@@ -1,0 +1,288 @@
+{
+  "name": "ferreteria",
+  "nodes": [
+    {
+      "parameters": {
+        "formTitle": "Upload your data to test RAG",
+        "formFields": {
+          "values": [
+            {
+              "fieldLabel": "Upload your file(s)",
+              "fieldType": "file",
+              "acceptFileTypes": ".pdf, .csv",
+              "requiredField": true
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "cbb4f843-eba2-4587-aadc-05882fb38c66",
+      "name": "Upload your file here",
+      "type": "n8n-nodes-base.formTrigger",
+      "position": [
+        -224,
+        -144
+      ],
+      "webhookId": "82848bc4-5ea2-4e5a-8bb6-3c09b94a8c5d",
+      "typeVersion": 2.2
+    },
+    {
+      "parameters": {
+        "dataType": "binary",
+        "options": {}
+      },
+      "id": "18337636-268c-4b1e-a9d2-569552af54ec",
+      "name": "Default Data Loader",
+      "type": "@n8n/n8n-nodes-langchain.documentDefaultDataLoader",
+      "position": [
+        224,
+        32
+      ],
+      "typeVersion": 1.1
+    },
+    {
+      "parameters": {
+        "content": "### 📚 Load Data Flow",
+        "height": 460,
+        "width": 700,
+        "color": 7
+      },
+      "id": "7cc1ec39-02b7-4a78-9763-6929fe064bbf",
+      "name": "Sticky Note1",
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -288,
+        -208
+      ],
+      "typeVersion": 1
+    },
+    {
+      "parameters": {
+        "mode": "insert",
+        "memoryKey": {
+          "__rl": true,
+          "mode": "list",
+          "value": "vector_store_key",
+          "cachedResultName": "vector_store_key"
+        }
+      },
+      "id": "47a7a84b-5086-4fcd-972b-80dd46667b61",
+      "name": "Insert Data to Store",
+      "type": "@n8n/n8n-nodes-langchain.vectorStoreInMemory",
+      "position": [
+        -48,
+        -144
+      ],
+      "typeVersion": 1.2
+    },
+    {
+      "parameters": {
+        "mode": "retrieve-as-tool",
+        "toolName": "knowledge_base",
+        "toolDescription": "Use this knowledge base to answer questions from the user",
+        "memoryKey": {
+          "__rl": true,
+          "mode": "list",
+          "value": "vector_store_key"
+        }
+      },
+      "id": "572cb224-e339-4a01-bee6-3c8d53e43b2a",
+      "name": "Query Data Tool",
+      "type": "@n8n/n8n-nodes-langchain.vectorStoreInMemory",
+      "position": [
+        960,
+        160
+      ],
+      "typeVersion": 1.2
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "Eres un agente de ferretería especializado en recomendaciones de stock.\nTu conocimiento está limitado a los productos que se encuentran en tu memoria RAG.\nNunca inventes productos, solo usa lo que existe en la memoria.\n\nCuando el usuario haga una consulta, debes:\n1. Leer la lista de productos disponibles en la memoria RAG.\n2. Analizar el contexto de la pregunta y compararlo con las frases de sugerencias guardadas:\n   - Primavera: mayor demanda de mangueras, regadores, fertilizantes, mosquiteros, pintura exterior.\n   - Verano: productos de pileta, ventiladores, sombrillas, mallas de sombra.\n   - Elecciones: demanda de carteles, adhesivos, pintura, herramientas de instalación rápida.\n   - Invierno: estufas, leña, burletes, selladores.\n   - Navidad/Fiestas: luces, alargues, enchufes múltiples, decoración.\n3. Recomendar solo los productos del RAG que coincidan con el rubro/contexto.\n4. Explicar brevemente por qué esos productos son útiles en este contexto.\n",
+        "options": {}
+      },
+      "id": "d1a082d0-0764-421d-b282-9de71e986945",
+      "name": "AI Agent",
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "position": [
+        848,
+        -160
+      ],
+      "typeVersion": 2
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "id": "52cb357b-664c-4de0-b485-69d4f6037c7f",
+      "name": "When chat message received",
+      "type": "@n8n/n8n-nodes-langchain.chatTrigger",
+      "position": [
+        624,
+        -160
+      ],
+      "webhookId": "4091fa09-fb9a-4039-9411-7104d213f601",
+      "typeVersion": 1.1
+    },
+    {
+      "parameters": {
+        "content": "### 🐕 2. Retriever Flow",
+        "height": 460,
+        "width": 680,
+        "color": 7
+      },
+      "id": "d7961d64-dd9e-44ce-9bcb-2261a9cb7fb3",
+      "name": "Sticky Note2",
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        512,
+        -208
+      ],
+      "typeVersion": 1
+    },
+    {
+      "parameters": {},
+      "type": "@n8n/n8n-nodes-langchain.embeddingsGoogleGemini",
+      "typeVersion": 1,
+      "position": [
+        16,
+        352
+      ],
+      "id": "6adf60fc-b92f-46c0-88e4-f69bc9b6ad54",
+      "name": "Embeddings Google Gemini",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "yhDvwef8WUSk0rNt",
+          "name": "Google Gemini(PaLM) Api account 2"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "typeVersion": 1,
+      "position": [
+        640,
+        80
+      ],
+      "id": "121c88d8-2b58-4030-9608-474056302471",
+      "name": "Google Gemini Chat Model",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "yhDvwef8WUSk0rNt",
+          "name": "Google Gemini(PaLM) Api account 2"
+        }
+      }
+    },
+    {
+      "parameters": {},
+      "type": "@n8n/n8n-nodes-langchain.memoryBufferWindow",
+      "typeVersion": 1.3,
+      "position": [
+        816,
+        80
+      ],
+      "id": "cbd42624-1052-4f51-a8c3-0e756135e5a3",
+      "name": "Simple Memory"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Query Data Tool": {
+      "ai_tool": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Default Data Loader": {
+      "ai_document": [
+        [
+          {
+            "node": "Insert Data to Store",
+            "type": "ai_document",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Upload your file here": {
+      "main": [
+        [
+          {
+            "node": "Insert Data to Store",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "When chat message received": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google Gemini Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Embeddings Google Gemini": {
+      "ai_embedding": [
+        [
+          {
+            "node": "Query Data Tool",
+            "type": "ai_embedding",
+            "index": 0
+          },
+          {
+            "node": "Insert Data to Store",
+            "type": "ai_embedding",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Simple Memory": {
+      "ai_memory": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_memory",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "90c23374-c40c-45d6-b894-ad288d785eb8",
+  "meta": {
+    "templateId": "build_your_first_ai_agent",
+    "templateCredsSetupCompleted": true,
+    "instanceId": "d1fc34d26e943d894d44bd589f5cc5778b5a2da48145d0296852617591fdbc73"
+  },
+  "id": "Z6uJMtlqYgBIZjw8",
+  "tags": []
+}

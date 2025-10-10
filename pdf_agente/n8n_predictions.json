@@ -1,0 +1,598 @@
+{
+  "resumen_general": {
+    "periodo_analizado": "2023-09 a 2023-11",
+    "total_unidades_vendidas": 0,
+    "promedio_unidades_por_venta": 0.0,
+    "numero_total_facturas": 0,
+    "numero_total_clientes": 0,
+    "total_productos_unicos": 0,
+    "total_rubros_unicos": 0
+  },
+  "top_10_productos_general": [
+    {
+      "nombre_producto": "Producto 1",
+      "cantidad": 0
+    },
+    {
+      "nombre_producto": "Producto 2",
+      "cantidad": 0
+    },
+    {
+      "nombre_producto": "Producto 3",
+      "cantidad": 0
+    },
+    {
+      "nombre_producto": "Producto 4",
+      "cantidad": 0
+    },
+    {
+      "nombre_producto": "Producto 5",
+      "cantidad": 0
+    },
+    {
+      "nombre_producto": "Producto 6",
+      "cantidad": 0
+    },
+    {
+      "nombre_producto": "Producto 7",
+      "cantidad": 0
+    },
+    {
+      "nombre_producto": "Producto 8",
+      "cantidad": 0
+    },
+    {
+      "nombre_producto": "Producto 9",
+      "cantidad": 0
+    },
+    {
+      "nombre_producto": "Producto 10",
+      "cantidad": 0
+    }
+  ],
+  "top_10_rubros_general": [
+    {
+      "rubro": "Rubro 1",
+      "cantidad": 0
+    },
+    {
+      "rubro": "Rubro 2",
+      "cantidad": 0
+    },
+    {
+      "rubro": "Rubro 3",
+      "cantidad": 0
+    },
+    {
+      "rubro": "Rubro 4",
+      "cantidad": 0
+    },
+    {
+      "rubro": "Rubro 5",
+      "cantidad": 0
+    },
+    {
+      "rubro": "Rubro 6",
+      "cantidad": 0
+    },
+    {
+      "rubro": "Rubro 7",
+      "cantidad": 0
+    },
+    {
+      "rubro": "Rubro 8",
+      "cantidad": 0
+    },
+    {
+      "rubro": "Rubro 9",
+      "cantidad": 0
+    },
+    {
+      "rubro": "Rubro 10",
+      "cantidad": 0
+    }
+  ],
+  "predicciones_productos_top_50": [
+    {
+      "producto": "Producto 1",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 2",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 3",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 4",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 5",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 6",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 7",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 8",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 9",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 10",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 11",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 12",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 13",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 14",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 15",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 16",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 17",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 18",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 19",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 20",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 21",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 22",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 23",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 24",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 25",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 26",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 27",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 28",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 29",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 30",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 31",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 32",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 33",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 34",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 35",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 36",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 37",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 38",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 39",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 40",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 41",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 42",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 43",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 44",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 45",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 46",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 47",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 48",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 49",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    },
+    {
+      "producto": "Producto 50",
+      "prediccion": 0,
+      "tendencia": 0.0,
+      "datos_historicos": 0,
+      "venta_promedio": 0.0
+    }
+  ],
+  "predicciones_rubros_top_20": [
+    {
+      "rubro": "Rubro 1",
+      "probabilidad_alto_volumen": 0.0,
+      "precision_modelo": 0.0,
+      "datos_historicos": 0,
+      "volumen_promedio": 0.0
+    },
+    {
+      "rubro": "Rubro 2",
+      "probabilidad_alto_volumen": 0.0,
+      "precision_modelo": 0.0,
+      "datos_historicos": 0,
+      "volumen_promedio": 0.0
+    },
+    {
+      "rubro": "Rubro 3",
+      "probabilidad_alto_volumen": 0.0,
+      "precision_modelo": 0.0,
+      "datos_historicos": 0,
+      "volumen_promedio": 0.0
+    },
+    {
+      "rubro": "Rubro 4",
+      "probabilidad_alto_volumen": 0.0,
+      "precision_modelo": 0.0,
+      "datos_historicos": 0,
+      "volumen_promedio": 0.0
+    },
+    {
+      "rubro": "Rubro 5",
+      "probabilidad_alto_volumen": 0.0,
+      "precision_modelo": 0.0,
+      "datos_historicos": 0,
+      "volumen_promedio": 0.0
+    },
+    {
+      "rubro": "Rubro 6",
+      "probabilidad_alto_volumen": 0.0,
+      "precision_modelo": 0.0,
+      "datos_historicos": 0,
+      "volumen_promedio": 0.0
+    },
+    {
+      "rubro": "Rubro 7",
+      "probabilidad_alto_volumen": 0.0,
+      "precision_modelo": 0.0,
+      "datos_historicos": 0,
+      "volumen_promedio": 0.0
+    },
+    {
+      "rubro": "Rubro 8",
+      "probabilidad_alto_volumen": 0.0,
+      "precision_modelo": 0.0,
+      "datos_historicos": 0,
+      "volumen_promedio": 0.0
+    },
+    {
+      "rubro": "Rubro 9",
+      "probabilidad_alto_volumen": 0.0,
+      "precision_modelo": 0.0,
+      "datos_historicos": 0,
+      "volumen_promedio": 0.0
+    },
+    {
+      "rubro": "Rubro 10",
+      "probabilidad_alto_volumen": 0.0,
+      "precision_modelo": 0.0,
+      "datos_historicos": 0,
+      "volumen_promedio": 0.0
+    },
+    {
+      "rubro": "Rubro 11",
+      "probabilidad_alto_volumen": 0.0,
+      "precision_modelo": 0.0,
+      "datos_historicos": 0,
+      "volumen_promedio": 0.0
+    },
+    {
+      "rubro": "Rubro 12",
+      "probabilidad_alto_volumen": 0.0,
+      "precision_modelo": 0.0,
+      "datos_historicos": 0,
+      "volumen_promedio": 0.0
+    },
+    {
+      "rubro": "Rubro 13",
+      "probabilidad_alto_volumen": 0.0,
+      "precision_modelo": 0.0,
+      "datos_historicos": 0,
+      "volumen_promedio": 0.0
+    },
+    {
+      "rubro": "Rubro 14",
+      "probabilidad_alto_volumen": 0.0,
+      "precision_modelo": 0.0,
+      "datos_historicos": 0,
+      "volumen_promedio": 0.0
+    },
+    {
+      "rubro": "Rubro 15",
+      "probabilidad_alto_volumen": 0.0,
+      "precision_modelo": 0.0,
+      "datos_historicos": 0,
+      "volumen_promedio": 0.0
+    },
+    {
+      "rubro": "Rubro 16",
+      "probabilidad_alto_volumen": 0.0,
+      "precision_modelo": 0.0,
+      "datos_historicos": 0,
+      "volumen_promedio": 0.0
+    },
+    {
+      "rubro": "Rubro 17",
+      "probabilidad_alto_volumen": 0.0,
+      "precision_modelo": 0.0,
+      "datos_historicos": 0,
+      "volumen_promedio": 0.0
+    },
+    {
+      "rubro": "Rubro 18",
+      "probabilidad_alto_volumen": 0.0,
+      "precision_modelo": 0.0,
+      "datos_historicos": 0,
+      "volumen_promedio": 0.0
+    },
+    {
+      "rubro": "Rubro 19",
+      "probabilidad_alto_volumen": 0.0,
+      "precision_modelo": 0.0,
+      "datos_historicos": 0,
+      "volumen_promedio": 0.0
+    },
+    {
+      "rubro": "Rubro 20",
+      "probabilidad_alto_volumen": 0.0,
+      "precision_modelo": 0.0,
+      "datos_historicos": 0,
+      "volumen_promedio": 0.0
+    }
+  ],
+  "metricas_evaluacion": {
+    "productos_regresion_lineal": {
+      "promedio_mape": 0.0,
+      "promedio_rmse": 0.0
+    },
+    "rubros_regresion_logistica": {
+      "precision_promedio": 0.0
+    }
+  }
+}
